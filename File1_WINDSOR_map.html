@@ -1,0 +1,899 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_dd0e94986f7de11374b4c65c42bf79a4 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_dd0e94986f7de11374b4c65c42bf79a4" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_dd0e94986f7de11374b4c65c42bf79a4 = L.map(
+                "map_dd0e94986f7de11374b4c65c42bf79a4",
+                {
+                    center: [0.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 1,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_8610b1e624eebc5f16bc4b3c7585ec26 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_8610b1e624eebc5f16bc4b3c7585ec26.addTo(map_dd0e94986f7de11374b4c65c42bf79a4);
+        
+    
+            var marker_58c2f150dd88df6aef2ae6c96cd8c0a2 = L.marker(
+                [42.1430733, -83.0660862],
+                {
+}
+            ).addTo(map_dd0e94986f7de11374b4c65c42bf79a4);
+        
+    
+        var popup_d63283fbc51cb195871613be4dc668e5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2b270c884ecd99a0e45a7d8968c1fc47 = $(`<div id="html_2b270c884ecd99a0e45a7d8968c1fc47" style="width: 100.0%; height: 100.0%;">3170 Middle Side Road, Amherstburg, ON, Canada</div>`)[0];
+                popup_d63283fbc51cb195871613be4dc668e5.setContent(html_2b270c884ecd99a0e45a7d8968c1fc47);
+            
+        
+
+        marker_58c2f150dd88df6aef2ae6c96cd8c0a2.bindPopup(popup_d63283fbc51cb195871613be4dc668e5)
+        ;
+
+        
+    
+    
+            var marker_77eb48a057c2c1602eb8bfa3de31eba7 = L.marker(
+                [42.2890738, -82.7004227],
+                {
+}
+            ).addTo(map_dd0e94986f7de11374b4c65c42bf79a4);
+        
+    
+        var popup_b64b6309b8da4d0eef1ef4d4a6b2a2de = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fb8d62fdbf30ce7eff8349fdadebfed1 = $(`<div id="html_fb8d62fdbf30ce7eff8349fdadebfed1" style="width: 100.0%; height: 100.0%;">370 St Peter Street, Belle River, ON, Canada</div>`)[0];
+                popup_b64b6309b8da4d0eef1ef4d4a6b2a2de.setContent(html_fb8d62fdbf30ce7eff8349fdadebfed1);
+            
+        
+
+        marker_77eb48a057c2c1602eb8bfa3de31eba7.bindPopup(popup_b64b6309b8da4d0eef1ef4d4a6b2a2de)
+        ;
+
+        
+    
+    
+            var marker_b3881506faabff7c09f5f87c6efbb68b = L.marker(
+                [42.267661, -83.0402733],
+                {
+}
+            ).addTo(map_dd0e94986f7de11374b4c65c42bf79a4);
+        
+    
+        var popup_061ff5e89930f7fa74708cd0237760da = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f94d54774844643878fc47a5f553ec3e = $(`<div id="html_f94d54774844643878fc47a5f553ec3e" style="width: 100.0%; height: 100.0%;">2500 Labelle Street, Windsor, ON, Canada</div>`)[0];
+                popup_061ff5e89930f7fa74708cd0237760da.setContent(html_f94d54774844643878fc47a5f553ec3e);
+            
+        
+
+        marker_b3881506faabff7c09f5f87c6efbb68b.bindPopup(popup_061ff5e89930f7fa74708cd0237760da)
+        ;
+
+        
+    
+    
+            var marker_a4d34496371a7ab7cff4bdaad3e064a1 = L.marker(
+                [42.2311648, -82.5562653],
+                {
+}
+            ).addTo(map_dd0e94986f7de11374b4c65c42bf79a4);
+        
+    
+        var popup_4a9c201b5d740a3718035a2df335b966 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c8940dad006220d4dbf2ecc1dd211cb7 = $(`<div id="html_c8940dad006220d4dbf2ecc1dd211cb7" style="width: 100.0%; height: 100.0%;">6420 Taylor, Comber, ON, Canada</div>`)[0];
+                popup_4a9c201b5d740a3718035a2df335b966.setContent(html_c8940dad006220d4dbf2ecc1dd211cb7);
+            
+        
+
+        marker_a4d34496371a7ab7cff4bdaad3e064a1.bindPopup(popup_4a9c201b5d740a3718035a2df335b966)
+        ;
+
+        
+    
+    
+            var marker_1288728ffd5f8579b58e023e7fe1c0b0 = L.marker(
+                [42.2705574, -83.0259963],
+                {
+}
+            ).addTo(map_dd0e94986f7de11374b4c65c42bf79a4);
+        
+    
+        var popup_fd942080c0608bbb24a5aabf74847b15 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_421f7aaeffab2f31e45fd8f02667449b = $(`<div id="html_421f7aaeffab2f31e45fd8f02667449b" style="width: 100.0%; height: 100.0%;">1200 Grand Marais West, Windsor, ON, Canada</div>`)[0];
+                popup_fd942080c0608bbb24a5aabf74847b15.setContent(html_421f7aaeffab2f31e45fd8f02667449b);
+            
+        
+
+        marker_1288728ffd5f8579b58e023e7fe1c0b0.bindPopup(popup_fd942080c0608bbb24a5aabf74847b15)
+        ;
+
+        
+    
+    
+            var marker_af900082bcba69cb3b77cb9d7a574882 = L.marker(
+                [42.3270931, -82.9602279],
+                {
+}
+            ).addTo(map_dd0e94986f7de11374b4c65c42bf79a4);
+        
+    
+        var popup_ef2965bbb4c4a5f9cb13422af5a338d0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1313bce4d8a6e6ef766c3fa72c69cf3d = $(`<div id="html_1313bce4d8a6e6ef766c3fa72c69cf3d" style="width: 100.0%; height: 100.0%;">6320 Raymond Avenue, Windsor, ON, Canada</div>`)[0];
+                popup_ef2965bbb4c4a5f9cb13422af5a338d0.setContent(html_1313bce4d8a6e6ef766c3fa72c69cf3d);
+            
+        
+
+        marker_af900082bcba69cb3b77cb9d7a574882.bindPopup(popup_ef2965bbb4c4a5f9cb13422af5a338d0)
+        ;
+
+        
+    
+    
+            var marker_0e095f0e9a09cb571c9cbefb1cbbd4d4 = L.marker(
+                [42.0499435, -82.7241426],
+                {
+}
+            ).addTo(map_dd0e94986f7de11374b4c65c42bf79a4);
+        
+    
+        var popup_3412da50cbd1095204147c1b945603fc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e127ff9be9b7576745cdd7f1aa332242 = $(`<div id="html_e127ff9be9b7576745cdd7f1aa332242" style="width: 100.0%; height: 100.0%;">1620 Jasperson Drive, Kingsville, ON, Canada</div>`)[0];
+                popup_3412da50cbd1095204147c1b945603fc.setContent(html_e127ff9be9b7576745cdd7f1aa332242);
+            
+        
+
+        marker_0e095f0e9a09cb571c9cbefb1cbbd4d4.bindPopup(popup_3412da50cbd1095204147c1b945603fc)
+        ;
+
+        
+    
+    
+            var marker_db91324b2288006d7dd0f437187801fb = L.marker(
+                [42.1738931, -82.8138643],
+                {
+}
+            ).addTo(map_dd0e94986f7de11374b4c65c42bf79a4);
+        
+    
+        var popup_d0636c539556d21b15cd3824a752fa37 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f90ba356a321c807ca3b442a8bbd8cd7 = $(`<div id="html_f90ba356a321c807ca3b442a8bbd8cd7" style="width: 100.0%; height: 100.0%;">72 Brien Avenue, Essex, ON, Canada</div>`)[0];
+                popup_d0636c539556d21b15cd3824a752fa37.setContent(html_f90ba356a321c807ca3b442a8bbd8cd7);
+            
+        
+
+        marker_db91324b2288006d7dd0f437187801fb.bindPopup(popup_d0636c539556d21b15cd3824a752fa37)
+        ;
+
+        
+    
+    
+            var marker_5c428f6f96df29980618bb1eb88ccc69 = L.marker(
+                [42.3207325, -83.0219431],
+                {
+}
+            ).addTo(map_dd0e94986f7de11374b4c65c42bf79a4);
+        
+    
+        var popup_39215ab9787a7f22120c90910773d014 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_aceb8011bd2bb866b873e53f99b70675 = $(`<div id="html_aceb8011bd2bb866b873e53f99b70675" style="width: 100.0%; height: 100.0%;">1093 Assumption Street, Windsor, ON, Canada</div>`)[0];
+                popup_39215ab9787a7f22120c90910773d014.setContent(html_aceb8011bd2bb866b873e53f99b70675);
+            
+        
+
+        marker_5c428f6f96df29980618bb1eb88ccc69.bindPopup(popup_39215ab9787a7f22120c90910773d014)
+        ;
+
+        
+    
+    
+            var marker_822afb3f19f2090ce05c637530a86859 = L.marker(
+                [42.2618048, -83.0278918],
+                {
+}
+            ).addTo(map_dd0e94986f7de11374b4c65c42bf79a4);
+        
+    
+        var popup_70896006a88d66d15d2cf723d9ae09cf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_30746d56a030f12e809c5f09beca58f9 = $(`<div id="html_30746d56a030f12e809c5f09beca58f9" style="width: 100.0%; height: 100.0%;">1601 Norfolk Street, Windsor, ON, Canada</div>`)[0];
+                popup_70896006a88d66d15d2cf723d9ae09cf.setContent(html_30746d56a030f12e809c5f09beca58f9);
+            
+        
+
+        marker_822afb3f19f2090ce05c637530a86859.bindPopup(popup_70896006a88d66d15d2cf723d9ae09cf)
+        ;
+
+        
+    
+    
+            var marker_5504955c4376cf31685c9b44d79adfef = L.marker(
+                [42.0374518, -82.9098388],
+                {
+}
+            ).addTo(map_dd0e94986f7de11374b4c65c42bf79a4);
+        
+    
+        var popup_bc2aac569a1fe56f44f1830a0138bed7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_21b8c8d72363f5af789b5025cf369645 = $(`<div id="html_21b8c8d72363f5af789b5025cf369645" style="width: 100.0%; height: 100.0%;">400 Centre Street E, Harrow, ON, Canada</div>`)[0];
+                popup_bc2aac569a1fe56f44f1830a0138bed7.setContent(html_21b8c8d72363f5af789b5025cf369645);
+            
+        
+
+        marker_5504955c4376cf31685c9b44d79adfef.bindPopup(popup_bc2aac569a1fe56f44f1830a0138bed7)
+        ;
+
+        
+    
+    
+            var marker_7bd60ef5d1de31c251280569149b46c0 = L.marker(
+                [42.301738, -82.9206374],
+                {
+}
+            ).addTo(map_dd0e94986f7de11374b4c65c42bf79a4);
+        
+    
+        var popup_f8d7dedece6114bef89f7c418b1a6278 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6d3e1f2cbc346dd9acfd75122ea11dc0 = $(`<div id="html_6d3e1f2cbc346dd9acfd75122ea11dc0" style="width: 100.0%; height: 100.0%;">3145 Wildwood Drive, Windsor, ON, Canada</div>`)[0];
+                popup_f8d7dedece6114bef89f7c418b1a6278.setContent(html_6d3e1f2cbc346dd9acfd75122ea11dc0);
+            
+        
+
+        marker_7bd60ef5d1de31c251280569149b46c0.bindPopup(popup_f8d7dedece6114bef89f7c418b1a6278)
+        ;
+
+        
+    
+    
+            var marker_af451ad248e2e0ba608a24892c39a331 = L.marker(
+                [42.2352633, -83.0220445],
+                {
+}
+            ).addTo(map_dd0e94986f7de11374b4c65c42bf79a4);
+        
+    
+        var popup_aa71b9aa1d1e8371a75c64650ae1f696 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_751d675cef1bc58ee0e9659f8a6d93ef = $(`<div id="html_751d675cef1bc58ee0e9659f8a6d93ef" style="width: 100.0%; height: 100.0%;">2555 Sandwich W Pkwy, Lasalle, ON, Canada</div>`)[0];
+                popup_aa71b9aa1d1e8371a75c64650ae1f696.setContent(html_751d675cef1bc58ee0e9659f8a6d93ef);
+            
+        
+
+        marker_af451ad248e2e0ba608a24892c39a331.bindPopup(popup_aa71b9aa1d1e8371a75c64650ae1f696)
+        ;
+
+        
+    
+    
+            var marker_203fda80549d81789e17c08035f3b36f = L.marker(
+                [42.1701011, -82.8144702],
+                {
+}
+            ).addTo(map_dd0e94986f7de11374b4c65c42bf79a4);
+        
+    
+        var popup_908d8f2df37ff5dc5a43c697e6154ab7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f21d08354aa551849db88d9fb17aaac0 = $(`<div id="html_f21d08354aa551849db88d9fb17aaac0" style="width: 100.0%; height: 100.0%;">200 Fairview Avenue W, Essex, ON, Canada</div>`)[0];
+                popup_908d8f2df37ff5dc5a43c697e6154ab7.setContent(html_f21d08354aa551849db88d9fb17aaac0);
+            
+        
+
+        marker_203fda80549d81789e17c08035f3b36f.bindPopup(popup_908d8f2df37ff5dc5a43c697e6154ab7)
+        ;
+
+        
+    
+    
+            var marker_94ba31c8e02509921d44ffc2c0d46450 = L.marker(
+                [42.2287994, -83.0895758],
+                {
+}
+            ).addTo(map_dd0e94986f7de11374b4c65c42bf79a4);
+        
+    
+        var popup_aaa7ca542070ebc8d5aa6b137337754e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_da882d8c041b539ce9ac0df8af9e7e4d = $(`<div id="html_da882d8c041b539ce9ac0df8af9e7e4d" style="width: 100.0%; height: 100.0%;">1600 Mayfair Avenue, Lasalle, ON, Canada</div>`)[0];
+                popup_aaa7ca542070ebc8d5aa6b137337754e.setContent(html_da882d8c041b539ce9ac0df8af9e7e4d);
+            
+        
+
+        marker_94ba31c8e02509921d44ffc2c0d46450.bindPopup(popup_aaa7ca542070ebc8d5aa6b137337754e)
+        ;
+
+        
+    
+    
+            var marker_a22bf6df9bf6f4ec333b58ef08679a8b = L.marker(
+                [42.0400255, -82.6066412],
+                {
+}
+            ).addTo(map_dd0e94986f7de11374b4c65c42bf79a4);
+        
+    
+        var popup_b90f2357e99a62bc6bdd52e8c9a72f92 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_18334c4969ab914c20533f1f00f9b15e = $(`<div id="html_18334c4969ab914c20533f1f00f9b15e" style="width: 100.0%; height: 100.0%;">259 Sherk Street, Leamington, ON, Canada</div>`)[0];
+                popup_b90f2357e99a62bc6bdd52e8c9a72f92.setContent(html_18334c4969ab914c20533f1f00f9b15e);
+            
+        
+
+        marker_a22bf6df9bf6f4ec333b58ef08679a8b.bindPopup(popup_b90f2357e99a62bc6bdd52e8c9a72f92)
+        ;
+
+        
+    
+    
+            var marker_73f28e29473ca754414e6195fa2faab3 = L.marker(
+                [42.2432615, -83.0125028],
+                {
+}
+            ).addTo(map_dd0e94986f7de11374b4c65c42bf79a4);
+        
+    
+        var popup_8d5fe4abada92f4cac870711a59abe70 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c0c0a05e54c28b12279bfdc9d090f679 = $(`<div id="html_c0c0a05e54c28b12279bfdc9d090f679" style="width: 100.0%; height: 100.0%;">1400 Cousineau Road, Windsor, ON, Canada</div>`)[0];
+                popup_8d5fe4abada92f4cac870711a59abe70.setContent(html_c0c0a05e54c28b12279bfdc9d090f679);
+            
+        
+
+        marker_73f28e29473ca754414e6195fa2faab3.bindPopup(popup_8d5fe4abada92f4cac870711a59abe70)
+        ;
+
+        
+    
+    
+            var marker_9ce52e2859e62324ee6e1e271ce668f2 = L.marker(
+                [42.3023012, -83.0309489],
+                {
+}
+            ).addTo(map_dd0e94986f7de11374b4c65c42bf79a4);
+        
+    
+        var popup_bfcd5236cd4e0ad9384c1b16bf8b66ac = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b36eeae72526533a019c7a209e3b91bb = $(`<div id="html_b36eeae72526533a019c7a209e3b91bb" style="width: 100.0%; height: 100.0%;">1376 Victoria Avenue, Windsor, ON, Canada</div>`)[0];
+                popup_bfcd5236cd4e0ad9384c1b16bf8b66ac.setContent(html_b36eeae72526533a019c7a209e3b91bb);
+            
+        
+
+        marker_9ce52e2859e62324ee6e1e271ce668f2.bindPopup(popup_bfcd5236cd4e0ad9384c1b16bf8b66ac)
+        ;
+
+        
+    
+    
+            var marker_2695ed87170d3cfdeb89e4a0c0d8d38e = L.marker(
+                [42.2608875, -82.9813842],
+                {
+}
+            ).addTo(map_dd0e94986f7de11374b4c65c42bf79a4);
+        
+    
+        var popup_273577736feff3b9b37c411f6ce0eb5f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_51effc8c27f1fd272e8c2191b4e7305d = $(`<div id="html_51effc8c27f1fd272e8c2191b4e7305d" style="width: 100.0%; height: 100.0%;">620 Cabana Road E, Windsor, ON, Canada</div>`)[0];
+                popup_273577736feff3b9b37c411f6ce0eb5f.setContent(html_51effc8c27f1fd272e8c2191b4e7305d);
+            
+        
+
+        marker_2695ed87170d3cfdeb89e4a0c0d8d38e.bindPopup(popup_273577736feff3b9b37c411f6ce0eb5f)
+        ;
+
+        
+    
+    
+            var marker_deb24b76be2e1599fef09e0a6c35372e = L.marker(
+                [42.3164108, -83.0046142],
+                {
+}
+            ).addTo(map_dd0e94986f7de11374b4c65c42bf79a4);
+        
+    
+        var popup_6cf0ac717bffa4fd5f92b6f3e826ac9f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_eca45092936ed0e90506c747d79f3b95 = $(`<div id="html_eca45092936ed0e90506c747d79f3b95" style="width: 100.0%; height: 100.0%;">1140 Monmouth Road, Windsor, ON, Canada</div>`)[0];
+                popup_6cf0ac717bffa4fd5f92b6f3e826ac9f.setContent(html_eca45092936ed0e90506c747d79f3b95);
+            
+        
+
+        marker_deb24b76be2e1599fef09e0a6c35372e.bindPopup(popup_6cf0ac717bffa4fd5f92b6f3e826ac9f)
+        ;
+
+        
+    
+    
+            var marker_72f06a05f98e048f8047e057dcb84e69 = L.marker(
+                [42.0376084, -82.9218104],
+                {
+}
+            ).addTo(map_dd0e94986f7de11374b4c65c42bf79a4);
+        
+    
+        var popup_87860c08a75d09bf9c5a96a4184fd69d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2f3621b96fdcceb9a5b83c6f6c1020a7 = $(`<div id="html_2f3621b96fdcceb9a5b83c6f6c1020a7" style="width: 100.0%; height: 100.0%;">166 Centre Street W, Harrow, ON, Canada</div>`)[0];
+                popup_87860c08a75d09bf9c5a96a4184fd69d.setContent(html_2f3621b96fdcceb9a5b83c6f6c1020a7);
+            
+        
+
+        marker_72f06a05f98e048f8047e057dcb84e69.bindPopup(popup_87860c08a75d09bf9c5a96a4184fd69d)
+        ;
+
+        
+    
+    
+            var marker_3d4148c72a89d1e019176edbb6317310 = L.marker(
+                [42.2835652, -83.0613035],
+                {
+}
+            ).addTo(map_dd0e94986f7de11374b4c65c42bf79a4);
+        
+    
+        var popup_852618455ddfb252101ddc21215956a9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6d50141a42f904bd5729ee8466addead = $(`<div id="html_6d50141a42f904bd5729ee8466addead" style="width: 100.0%; height: 100.0%;">1601 St James Street, Windsor, ON, Canada</div>`)[0];
+                popup_852618455ddfb252101ddc21215956a9.setContent(html_6d50141a42f904bd5729ee8466addead);
+            
+        
+
+        marker_3d4148c72a89d1e019176edbb6317310.bindPopup(popup_852618455ddfb252101ddc21215956a9)
+        ;
+
+        
+    
+    
+            var marker_797386f57edef69eb50ee41dc45331cd = L.marker(
+                [42.2893616, -82.7062792],
+                {
+}
+            ).addTo(map_dd0e94986f7de11374b4c65c42bf79a4);
+        
+    
+        var popup_4e8d325c04a18849cd9a93f05d2e3156 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_19d1bc666f04fa08fea41101ae3c4d3a = $(`<div id="html_19d1bc666f04fa08fea41101ae3c4d3a" style="width: 100.0%; height: 100.0%;">494 St Peter Street, Belle River, ON, Canada</div>`)[0];
+                popup_4e8d325c04a18849cd9a93f05d2e3156.setContent(html_19d1bc666f04fa08fea41101ae3c4d3a);
+            
+        
+
+        marker_797386f57edef69eb50ee41dc45331cd.bindPopup(popup_4e8d325c04a18849cd9a93f05d2e3156)
+        ;
+
+        
+    
+    
+            var marker_da86a996be06aa165762bb94290527cf = L.marker(
+                [42.3366467, -82.9390282],
+                {
+}
+            ).addTo(map_dd0e94986f7de11374b4c65c42bf79a4);
+        
+    
+        var popup_dcef7be622a6f2479ddce237859f9323 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_83ce13b312dbef0a513d6b9c4f107b5c = $(`<div id="html_83ce13b312dbef0a513d6b9c4f107b5c" style="width: 100.0%; height: 100.0%;">8405 Cedarview Street, Windsor, ON, Canada</div>`)[0];
+                popup_dcef7be622a6f2479ddce237859f9323.setContent(html_83ce13b312dbef0a513d6b9c4f107b5c);
+            
+        
+
+        marker_da86a996be06aa165762bb94290527cf.bindPopup(popup_dcef7be622a6f2479ddce237859f9323)
+        ;
+
+        
+    
+    
+            var marker_8a6676d0e537e87884b6b2f2664fba6e = L.marker(
+                [42.1851183, -83.0683552],
+                {
+}
+            ).addTo(map_dd0e94986f7de11374b4c65c42bf79a4);
+        
+    
+        var popup_b4613447197b4a2a96bceebe62c33c7a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_998f5bdae9b63f8cf76ea605e8318caa = $(`<div id="html_998f5bdae9b63f8cf76ea605e8318caa" style="width: 100.0%; height: 100.0%;">9381 Townline Road, River Canard, ON, Canada</div>`)[0];
+                popup_b4613447197b4a2a96bceebe62c33c7a.setContent(html_998f5bdae9b63f8cf76ea605e8318caa);
+            
+        
+
+        marker_8a6676d0e537e87884b6b2f2664fba6e.bindPopup(popup_b4613447197b4a2a96bceebe62c33c7a)
+        ;
+
+        
+    
+    
+            var marker_0d4b7daccaf4bc907e4c96440759732c = L.marker(
+                [42.0545018, -82.5900744],
+                {
+}
+            ).addTo(map_dd0e94986f7de11374b4c65c42bf79a4);
+        
+    
+        var popup_cac260b9cf174529f707250ceb3856f4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f2912ee4580b54df613afa8c357dec6d = $(`<div id="html_f2912ee4580b54df613afa8c357dec6d" style="width: 100.0%; height: 100.0%;">176 Talbot Street E, Leamington, ON, Canada</div>`)[0];
+                popup_cac260b9cf174529f707250ceb3856f4.setContent(html_f2912ee4580b54df613afa8c357dec6d);
+            
+        
+
+        marker_0d4b7daccaf4bc907e4c96440759732c.bindPopup(popup_cac260b9cf174529f707250ceb3856f4)
+        ;
+
+        
+    
+    
+            var marker_b72628dc88cc72ae2f58506ecf6f6dcb = L.marker(
+                [42.3213978, -82.882696],
+                {
+}
+            ).addTo(map_dd0e94986f7de11374b4c65c42bf79a4);
+        
+    
+        var popup_9fa4bb74f1159b4b44cc358df3ac779c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_91958e5b7c279730efc5b99a97cfd8a1 = $(`<div id="html_91958e5b7c279730efc5b99a97cfd8a1" style="width: 100.0%; height: 100.0%;">644 Lacasse Boulevard, Tecumseh, ON, Canada</div>`)[0];
+                popup_9fa4bb74f1159b4b44cc358df3ac779c.setContent(html_91958e5b7c279730efc5b99a97cfd8a1);
+            
+        
+
+        marker_b72628dc88cc72ae2f58506ecf6f6dcb.bindPopup(popup_9fa4bb74f1159b4b44cc358df3ac779c)
+        ;
+
+        
+    
+    
+            var marker_9456e9801a963c779bbf6bb8b7c87a3c = L.marker(
+                [42.3050545, -82.9855217],
+                {
+}
+            ).addTo(map_dd0e94986f7de11374b4c65c42bf79a4);
+        
+    
+        var popup_119e575bf2ecf17058d8af1971753244 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_644bfabd610967531e9ad8845df61ae9 = $(`<div id="html_644bfabd610967531e9ad8845df61ae9" style="width: 100.0%; height: 100.0%;">1860 Chandler Road, Windsor, ON, Canada</div>`)[0];
+                popup_119e575bf2ecf17058d8af1971753244.setContent(html_644bfabd610967531e9ad8845df61ae9);
+            
+        
+
+        marker_9456e9801a963c779bbf6bb8b7c87a3c.bindPopup(popup_119e575bf2ecf17058d8af1971753244)
+        ;
+
+        
+    
+    
+            var marker_a031c37c2019e4a7440be5a0e28edc0d = L.marker(
+                [42.1154213, -83.1071782],
+                {
+}
+            ).addTo(map_dd0e94986f7de11374b4c65c42bf79a4);
+        
+    
+        var popup_ada008e8631ec50e594150c775c0c251 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a25795b723495c66802dc8519cccc602 = $(`<div id="html_a25795b723495c66802dc8519cccc602" style="width: 100.0%; height: 100.0%;">140 Girard Street, Amherstburg, ON, Canada</div>`)[0];
+                popup_ada008e8631ec50e594150c775c0c251.setContent(html_a25795b723495c66802dc8519cccc602);
+            
+        
+
+        marker_a031c37c2019e4a7440be5a0e28edc0d.bindPopup(popup_ada008e8631ec50e594150c775c0c251)
+        ;
+
+        
+    
+    
+            var marker_264adde715dc03a4b1690ac81d595d46 = L.marker(
+                [42.2521539, -82.9725972],
+                {
+}
+            ).addTo(map_dd0e94986f7de11374b4c65c42bf79a4);
+        
+    
+        var popup_a4f747c039701ed95c1536bf74f419f3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f093d3bfc698285e41da778de449e245 = $(`<div id="html_f093d3bfc698285e41da778de449e245" style="width: 100.0%; height: 100.0%;">4000 Ducharme Street, Windsor, ON, Canada</div>`)[0];
+                popup_a4f747c039701ed95c1536bf74f419f3.setContent(html_f093d3bfc698285e41da778de449e245);
+            
+        
+
+        marker_264adde715dc03a4b1690ac81d595d46.bindPopup(popup_a4f747c039701ed95c1536bf74f419f3)
+        ;
+
+        
+    
+    
+            var marker_f3833356ffd487f642ede9c80e500455 = L.marker(
+                [42.2828098, -82.8812512],
+                {
+}
+            ).addTo(map_dd0e94986f7de11374b4c65c42bf79a4);
+        
+    
+        var popup_e277a255810070f1d4755c95d3e9ed05 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e78eaf6e43681071b36d1b49151a2de4 = $(`<div id="html_e78eaf6e43681071b36d1b49151a2de4" style="width: 100.0%; height: 100.0%;">11665 Shields Street, Tecumseh, ON, Canada</div>`)[0];
+                popup_e277a255810070f1d4755c95d3e9ed05.setContent(html_e78eaf6e43681071b36d1b49151a2de4);
+            
+        
+
+        marker_f3833356ffd487f642ede9c80e500455.bindPopup(popup_e277a255810070f1d4755c95d3e9ed05)
+        ;
+
+        
+    
+    
+            var marker_38179dd5c5a2a08b8c83d160e6f6c1bb = L.marker(
+                [42.2972366, -83.0514486],
+                {
+}
+            ).addTo(map_dd0e94986f7de11374b4c65c42bf79a4);
+        
+    
+        var popup_dce3e37da8c5c34df44cea81a17c8930 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d77ac12fb949b29719a63627ea90664a = $(`<div id="html_d77ac12fb949b29719a63627ea90664a" style="width: 100.0%; height: 100.0%;">1275 Campbell Avenue, Windsor, ON, Canada</div>`)[0];
+                popup_dce3e37da8c5c34df44cea81a17c8930.setContent(html_d77ac12fb949b29719a63627ea90664a);
+            
+        
+
+        marker_38179dd5c5a2a08b8c83d160e6f6c1bb.bindPopup(popup_dce3e37da8c5c34df44cea81a17c8930)
+        ;
+
+        
+    
+    
+            var marker_e4589745be4ec4e589dc39393e402191 = L.marker(
+                [42.2990172, -82.9541946],
+                {
+}
+            ).addTo(map_dd0e94986f7de11374b4c65c42bf79a4);
+        
+    
+        var popup_d09d68664a5ef2d6356ed08bbf3f329c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f4abc4e1813e657a807190f4366c0f85 = $(`<div id="html_f4abc4e1813e657a807190f4366c0f85" style="width: 100.0%; height: 100.0%;">2855 Rivard Avenue, Windsor, ON, Canada</div>`)[0];
+                popup_d09d68664a5ef2d6356ed08bbf3f329c.setContent(html_f4abc4e1813e657a807190f4366c0f85);
+            
+        
+
+        marker_e4589745be4ec4e589dc39393e402191.bindPopup(popup_d09d68664a5ef2d6356ed08bbf3f329c)
+        ;
+
+        
+    
+    
+            map_dd0e94986f7de11374b4c65c42bf79a4.fitBounds(
+                [[42.1430733, -83.0660862], [42.2890738, -82.7004227], [42.267661, -83.0402733], [42.2311648, -82.5562653], [42.2705574, -83.0259963], [42.3270931, -82.9602279], [42.0499435, -82.7241426], [42.1738931, -82.8138643], [42.3207325, -83.0219431], [42.2618048, -83.0278918], [42.0374518, -82.9098388], [42.301738, -82.9206374], [42.2352633, -83.0220445], [42.1701011, -82.8144702], [42.2287994, -83.0895758], [42.0400255, -82.6066412], [42.2432615, -83.0125028], [42.3023012, -83.0309489], [42.2608875, -82.9813842], [42.3164108, -83.0046142], [42.0376084, -82.9218104], [42.2835652, -83.0613035], [42.2893616, -82.7062792], [42.3366467, -82.9390282], [42.1851183, -83.0683552], [42.0545018, -82.5900744], [42.3213978, -82.882696], [42.3050545, -82.9855217], [42.1154213, -83.1071782], [42.2521539, -82.9725972], [42.2828098, -82.8812512], [42.2972366, -83.0514486], [42.2990172, -82.9541946]],
+                {}
+            );
+        
+</script>
+</html>

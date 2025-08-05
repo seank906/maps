@@ -1,0 +1,1211 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_684972637482b9faae0679a04a7bba06 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_684972637482b9faae0679a04a7bba06" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_684972637482b9faae0679a04a7bba06 = L.map(
+                "map_684972637482b9faae0679a04a7bba06",
+                {
+                    center: [0.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 1,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_5a03972be4812b3d9102e03e2bc3d6d4 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_5a03972be4812b3d9102e03e2bc3d6d4.addTo(map_684972637482b9faae0679a04a7bba06);
+        
+    
+            var marker_81880d44e53f9be0e4fe2327f2ba68c8 = L.marker(
+                [43.1231816, -80.2507774],
+                {
+}
+            ).addTo(map_684972637482b9faae0679a04a7bba06);
+        
+    
+        var popup_2f719503505eb7c49a2fc5ee390924b8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_be9bc4b7a1ec14d305bd355a410a78e8 = $(`<div id="html_be9bc4b7a1ec14d305bd355a410a78e8" style="width: 100.0%; height: 100.0%;">97 Tenth Avenue, Brantford, ON, Canada</div>`)[0];
+                popup_2f719503505eb7c49a2fc5ee390924b8.setContent(html_be9bc4b7a1ec14d305bd355a410a78e8);
+            
+        
+
+        marker_81880d44e53f9be0e4fe2327f2ba68c8.bindPopup(popup_2f719503505eb7c49a2fc5ee390924b8)
+        ;
+
+        
+    
+    
+            var marker_79c480b792705328573771d8795ab43b = L.marker(
+                [42.9912172, -80.2711596],
+                {
+}
+            ).addTo(map_684972637482b9faae0679a04a7bba06);
+        
+    
+        var popup_81383720f616bcfc5fee1c37b05e7fbb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6f57b8564c46f2f4c1aaaa6c9408e301 = $(`<div id="html_6f57b8564c46f2f4c1aaaa6c9408e301" style="width: 100.0%; height: 100.0%;">2993 Cockshutt Road, Waterford, ON, Canada</div>`)[0];
+                popup_81383720f616bcfc5fee1c37b05e7fbb.setContent(html_6f57b8564c46f2f4c1aaaa6c9408e301);
+            
+        
+
+        marker_79c480b792705328573771d8795ab43b.bindPopup(popup_81383720f616bcfc5fee1c37b05e7fbb)
+        ;
+
+        
+    
+    
+            var marker_8e6c0be24da31d456309a27e00da9927 = L.marker(
+                [43.1813052, -80.2367115],
+                {
+}
+            ).addTo(map_684972637482b9faae0679a04a7bba06);
+        
+    
+        var popup_077baecbbdba78110485ac82cb9d8e5f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8bfe7ddaebcdc13cb68fa7af46eb824d = $(`<div id="html_8bfe7ddaebcdc13cb68fa7af46eb824d" style="width: 100.0%; height: 100.0%;">238 Brantwood Park Road, Brantford, ON, Canada</div>`)[0];
+                popup_077baecbbdba78110485ac82cb9d8e5f.setContent(html_8bfe7ddaebcdc13cb68fa7af46eb824d);
+            
+        
+
+        marker_8e6c0be24da31d456309a27e00da9927.bindPopup(popup_077baecbbdba78110485ac82cb9d8e5f)
+        ;
+
+        
+    
+    
+            var marker_f7cf4aa411f2758d9e0b8f6465822fb7 = L.marker(
+                [43.1768099, -80.2554986],
+                {
+}
+            ).addTo(map_684972637482b9faae0679a04a7bba06);
+        
+    
+        var popup_1c3a327bf8b64ac099da8de4f3b3e09d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7c27e7f2fc6c1ff0147ed4bec4a232b2 = $(`<div id="html_7c27e7f2fc6c1ff0147ed4bec4a232b2" style="width: 100.0%; height: 100.0%;">10 Blackfriar Lane, Brantford, ON, Canada</div>`)[0];
+                popup_1c3a327bf8b64ac099da8de4f3b3e09d.setContent(html_7c27e7f2fc6c1ff0147ed4bec4a232b2);
+            
+        
+
+        marker_f7cf4aa411f2758d9e0b8f6465822fb7.bindPopup(popup_1c3a327bf8b64ac099da8de4f3b3e09d)
+        ;
+
+        
+    
+    
+            var marker_d6e11139680702bc41af15f599da8de3 = L.marker(
+                [43.0990038, -80.4318403],
+                {
+}
+            ).addTo(map_684972637482b9faae0679a04a7bba06);
+        
+    
+        var popup_51b4105b824a16ba41c834e591884fef = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_11b7e21322013a27d750416285b2ee58 = $(`<div id="html_11b7e21322013a27d750416285b2ee58" style="width: 100.0%; height: 100.0%;">35 Alexander Street, Burford, ON, Canada</div>`)[0];
+                popup_51b4105b824a16ba41c834e591884fef.setContent(html_11b7e21322013a27d750416285b2ee58);
+            
+        
+
+        marker_d6e11139680702bc41af15f599da8de3.bindPopup(popup_51b4105b824a16ba41c834e591884fef)
+        ;
+
+        
+    
+    
+            var marker_e5297180befe6ca298f9d7ade1da9b33 = L.marker(
+                [43.0764674, -79.9527583],
+                {
+}
+            ).addTo(map_684972637482b9faae0679a04a7bba06);
+        
+    
+        var popup_a7b24eba84faf63534afdc7932c72e7f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bb776a003714d887110588816a884945 = $(`<div id="html_bb776a003714d887110588816a884945" style="width: 100.0%; height: 100.0%;">110 Shetland Street, Caledonia, ON, Canada</div>`)[0];
+                popup_a7b24eba84faf63534afdc7932c72e7f.setContent(html_bb776a003714d887110588816a884945);
+            
+        
+
+        marker_e5297180befe6ca298f9d7ade1da9b33.bindPopup(popup_a7b24eba84faf63534afdc7932c72e7f)
+        ;
+
+        
+    
+    
+            var marker_586ff48f852a4cbed672529cef311dc2 = L.marker(
+                [43.1839843, -80.2623495],
+                {
+}
+            ).addTo(map_684972637482b9faae0679a04a7bba06);
+        
+    
+        var popup_e3f4f2a981a1b798d1957cc064fd7b9e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_18926d436c77bd232cb9d4d388eef0e7 = $(`<div id="html_18926d436c77bd232cb9d4d388eef0e7" style="width: 100.0%; height: 100.0%;">60 Ashgrove Avenue, Brantford, ON, Canada</div>`)[0];
+                popup_e3f4f2a981a1b798d1957cc064fd7b9e.setContent(html_18926d436c77bd232cb9d4d388eef0e7);
+            
+        
+
+        marker_586ff48f852a4cbed672529cef311dc2.bindPopup(popup_e3f4f2a981a1b798d1957cc064fd7b9e)
+        ;
+
+        
+    
+    
+            var marker_ef0f5b029f34b2f8e2192efcc3339fce = L.marker(
+                [43.1755151, -80.2658105],
+                {
+}
+            ).addTo(map_684972637482b9faae0679a04a7bba06);
+        
+    
+        var popup_0318b4cd31dc4d0a148f844590507ad9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c462a1d67a4cad1f4d07883b7ffcdef4 = $(`<div id="html_c462a1d67a4cad1f4d07883b7ffcdef4" style="width: 100.0%; height: 100.0%;">41 Ellenson Drive, Brantford, ON, Canada</div>`)[0];
+                popup_0318b4cd31dc4d0a148f844590507ad9.setContent(html_c462a1d67a4cad1f4d07883b7ffcdef4);
+            
+        
+
+        marker_ef0f5b029f34b2f8e2192efcc3339fce.bindPopup(popup_0318b4cd31dc4d0a148f844590507ad9)
+        ;
+
+        
+    
+    
+            var marker_fd88927cfd26a75fa357fdd17c74295e = L.marker(
+                [43.1445146, -80.2621808],
+                {
+}
+            ).addTo(map_684972637482b9faae0679a04a7bba06);
+        
+    
+        var popup_032d0f1abfd3776b060d9da5573dd0bf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a417a0072de178e3e425e3f56061499f = $(`<div id="html_a417a0072de178e3e425e3f56061499f" style="width: 100.0%; height: 100.0%;">135 George Street, Brantford, ON, Canada</div>`)[0];
+                popup_032d0f1abfd3776b060d9da5573dd0bf.setContent(html_a417a0072de178e3e425e3f56061499f);
+            
+        
+
+        marker_fd88927cfd26a75fa357fdd17c74295e.bindPopup(popup_032d0f1abfd3776b060d9da5573dd0bf)
+        ;
+
+        
+    
+    
+            var marker_784d5d702895ba94a1176cc580914539 = L.marker(
+                [43.1486691, -80.2838258],
+                {
+}
+            ).addTo(map_684972637482b9faae0679a04a7bba06);
+        
+    
+        var popup_bd1c1c05b73a3d647823c2d7b4c50ef1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a6fece990002dac2caaf49339a8b69e6 = $(`<div id="html_a6fece990002dac2caaf49339a8b69e6" style="width: 100.0%; height: 100.0%;">165 Dufferin Avenue, Brantford, ON, Canada</div>`)[0];
+                popup_bd1c1c05b73a3d647823c2d7b4c50ef1.setContent(html_a6fece990002dac2caaf49339a8b69e6);
+            
+        
+
+        marker_784d5d702895ba94a1176cc580914539.bindPopup(popup_bd1c1c05b73a3d647823c2d7b4c50ef1)
+        ;
+
+        
+    
+    
+            var marker_56f9327b097d2803856b558d825726df = L.marker(
+                [43.1416283, -80.2326317],
+                {
+}
+            ).addTo(map_684972637482b9faae0679a04a7bba06);
+        
+    
+        var popup_f3b24411baae72ef366f70b555ffdb5f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_617755be33657e4672902e90d616f7f0 = $(`<div id="html_617755be33657e4672902e90d616f7f0" style="width: 100.0%; height: 100.0%;">723 Colborne East, Brantford, ON, Canada</div>`)[0];
+                popup_f3b24411baae72ef366f70b555ffdb5f.setContent(html_617755be33657e4672902e90d616f7f0);
+            
+        
+
+        marker_56f9327b097d2803856b558d825726df.bindPopup(popup_f3b24411baae72ef366f70b555ffdb5f)
+        ;
+
+        
+    
+    
+            var marker_87230692e69268134f9ce4e770d51c7b = L.marker(
+                [42.8366041, -80.3148049],
+                {
+}
+            ).addTo(map_684972637482b9faae0679a04a7bba06);
+        
+    
+        var popup_a25dd8a99b7506687f9780871b8dcd84 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0c639ec59339e6cfc1b4cab3d1fba287 = $(`<div id="html_0c639ec59339e6cfc1b4cab3d1fba287" style="width: 100.0%; height: 100.0%;">80 Elgin Avenue, Simcoe, ON, Canada</div>`)[0];
+                popup_a25dd8a99b7506687f9780871b8dcd84.setContent(html_0c639ec59339e6cfc1b4cab3d1fba287);
+            
+        
+
+        marker_87230692e69268134f9ce4e770d51c7b.bindPopup(popup_a25dd8a99b7506687f9780871b8dcd84)
+        ;
+
+        
+    
+    
+            var marker_a5a0c4fd9f0d2d16e179afd2d404b9bc = L.marker(
+                [43.1532371, -80.2689588],
+                {
+}
+            ).addTo(map_684972637482b9faae0679a04a7bba06);
+        
+    
+        var popup_5b6b6345dcbbd7c737ee08687689879c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e6f46fcd4eb3413bd07be1e293eab6bb = $(`<div id="html_e6f46fcd4eb3413bd07be1e293eab6bb" style="width: 100.0%; height: 100.0%;">56 Grand Street, Brantford, ON, Canada</div>`)[0];
+                popup_5b6b6345dcbbd7c737ee08687689879c.setContent(html_e6f46fcd4eb3413bd07be1e293eab6bb);
+            
+        
+
+        marker_a5a0c4fd9f0d2d16e179afd2d404b9bc.bindPopup(popup_5b6b6345dcbbd7c737ee08687689879c)
+        ;
+
+        
+    
+    
+            var marker_843d2340bd84a2befdbd2a1d1760230b = L.marker(
+                [43.1790894, -80.2737356],
+                {
+}
+            ).addTo(map_684972637482b9faae0679a04a7bba06);
+        
+    
+        var popup_26b46d0dccd401da4754cadca7fe0690 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_acaa88cac73d537c3392fd4cd0fd9ee6 = $(`<div id="html_acaa88cac73d537c3392fd4cd0fd9ee6" style="width: 100.0%; height: 100.0%;">33 White Oaks Avenue, Brantford, ON, Canada</div>`)[0];
+                popup_26b46d0dccd401da4754cadca7fe0690.setContent(html_acaa88cac73d537c3392fd4cd0fd9ee6);
+            
+        
+
+        marker_843d2340bd84a2befdbd2a1d1760230b.bindPopup(popup_26b46d0dccd401da4754cadca7fe0690)
+        ;
+
+        
+    
+    
+            var marker_d8b11be7d4a22496fe012f8a8a1ea9d4 = L.marker(
+                [42.9554399, -80.050238],
+                {
+}
+            ).addTo(map_684972637482b9faae0679a04a7bba06);
+        
+    
+        var popup_18b930278dedb0b833cfc22d6ed9895f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2877d1d0d3767b260ca1b68b63de356e = $(`<div id="html_2877d1d0d3767b260ca1b68b63de356e" style="width: 100.0%; height: 100.0%;">40 Parkview Road, Hagersville, ON, Canada</div>`)[0];
+                popup_18b930278dedb0b833cfc22d6ed9895f.setContent(html_2877d1d0d3767b260ca1b68b63de356e);
+            
+        
+
+        marker_d8b11be7d4a22496fe012f8a8a1ea9d4.bindPopup(popup_18b930278dedb0b833cfc22d6ed9895f)
+        ;
+
+        
+    
+    
+            var marker_f7758cfaf735b4fc080d75fb9bcd7924 = L.marker(
+                [42.9446912, -79.8516069],
+                {
+}
+            ).addTo(map_684972637482b9faae0679a04a7bba06);
+        
+    
+        var popup_d38527673ebb77708cd86a49758937c3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e2f3c2a6a3b0509b1238ada217d97149 = $(`<div id="html_e2f3c2a6a3b0509b1238ada217d97149" style="width: 100.0%; height: 100.0%;">60 Munsee Street S, Cayuga, ON, Canada</div>`)[0];
+                popup_d38527673ebb77708cd86a49758937c3.setContent(html_e2f3c2a6a3b0509b1238ada217d97149);
+            
+        
+
+        marker_f7758cfaf735b4fc080d75fb9bcd7924.bindPopup(popup_d38527673ebb77708cd86a49758937c3)
+        ;
+
+        
+    
+    
+            var marker_61f9f119031dc0182033b5f97204be52 = L.marker(
+                [42.8879413, -80.1096193],
+                {
+}
+            ).addTo(map_684972637482b9faae0679a04a7bba06);
+        
+    
+        var popup_d723858b751e0f45e3ccde1c5c1d3aa6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_69bae4bd00fdd44a569736e73545e085 = $(`<div id="html_69bae4bd00fdd44a569736e73545e085" style="width: 100.0%; height: 100.0%;">14 Monson Street, Jarvis, ON, Canada</div>`)[0];
+                popup_d723858b751e0f45e3ccde1c5c1d3aa6.setContent(html_69bae4bd00fdd44a569736e73545e085);
+            
+        
+
+        marker_61f9f119031dc0182033b5f97204be52.bindPopup(popup_d723858b751e0f45e3ccde1c5c1d3aa6)
+        ;
+
+        
+    
+    
+            var marker_ebb1a64a180900676c0a668ba073c1d9 = L.marker(
+                [43.1454833, -80.2477411],
+                {
+}
+            ).addTo(map_684972637482b9faae0679a04a7bba06);
+        
+    
+        var popup_b150413070074e4d009cc401c449f380 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_318fc5f3677398ab6c1602e7ee461fd3 = $(`<div id="html_318fc5f3677398ab6c1602e7ee461fd3" style="width: 100.0%; height: 100.0%;">265 Rawdon Street, Brantford, ON, Canada</div>`)[0];
+                popup_b150413070074e4d009cc401c449f380.setContent(html_318fc5f3677398ab6c1602e7ee461fd3);
+            
+        
+
+        marker_ebb1a64a180900676c0a668ba073c1d9.bindPopup(popup_b150413070074e4d009cc401c449f380)
+        ;
+
+        
+    
+    
+            var marker_9f711d212d51baa89d10001afb149896 = L.marker(
+                [42.7892916, -80.213303],
+                {
+}
+            ).addTo(map_684972637482b9faae0679a04a7bba06);
+        
+    
+        var popup_abf9441dff749fb579d1900b6b06cff9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c79ebab95fc9a0b2f684bef669dc2142 = $(`<div id="html_c79ebab95fc9a0b2f684bef669dc2142" style="width: 100.0%; height: 100.0%;">713 St George Street, Port Dover, ON, Canada</div>`)[0];
+                popup_abf9441dff749fb579d1900b6b06cff9.setContent(html_c79ebab95fc9a0b2f684bef669dc2142);
+            
+        
+
+        marker_9f711d212d51baa89d10001afb149896.bindPopup(popup_abf9441dff749fb579d1900b6b06cff9)
+        ;
+
+        
+    
+    
+            var marker_bbeac6b2ed7081941d9f34ecb9af0e76 = L.marker(
+                [42.7392363, -80.5820857],
+                {
+}
+            ).addTo(map_684972637482b9faae0679a04a7bba06);
+        
+    
+        var popup_d04272b90c89f46ecc37a05b41133b08 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a3068515b5731753804b9a0285a16b2b = $(`<div id="html_a3068515b5731753804b9a0285a16b2b" style="width: 100.0%; height: 100.0%;">23 Albert Street, Langton, ON, Canada</div>`)[0];
+                popup_d04272b90c89f46ecc37a05b41133b08.setContent(html_a3068515b5731753804b9a0285a16b2b);
+            
+        
+
+        marker_bbeac6b2ed7081941d9f34ecb9af0e76.bindPopup(popup_d04272b90c89f46ecc37a05b41133b08)
+        ;
+
+        
+    
+    
+            var marker_3364f4797c425924ef12e927e11e61f6 = L.marker(
+                [43.1214204, -80.2499754],
+                {
+}
+            ).addTo(map_684972637482b9faae0679a04a7bba06);
+        
+    
+        var popup_58a62b89bf8603b44de5e7ed3a0a189e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_54378b5d89fcfa0e4d36b3ad8902af65 = $(`<div id="html_54378b5d89fcfa0e4d36b3ad8902af65" style="width: 100.0%; height: 100.0%;">120 Ninth Avenue, Brantford, ON, Canada</div>`)[0];
+                popup_58a62b89bf8603b44de5e7ed3a0a189e.setContent(html_54378b5d89fcfa0e4d36b3ad8902af65);
+            
+        
+
+        marker_3364f4797c425924ef12e927e11e61f6.bindPopup(popup_58a62b89bf8603b44de5e7ed3a0a189e)
+        ;
+
+        
+    
+    
+            var marker_a158b436058042127d821c07b354891b = L.marker(
+                [43.1373586, -80.2468812],
+                {
+}
+            ).addTo(map_684972637482b9faae0679a04a7bba06);
+        
+    
+        var popup_26466e9e4990013390172a87cb0ae59f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5ceb5be6af0d2ad700a95f50c1e1c556 = $(`<div id="html_5ceb5be6af0d2ad700a95f50c1e1c556" style="width: 100.0%; height: 100.0%;">105 Rawdon Street, Brantford, ON, Canada</div>`)[0];
+                popup_26466e9e4990013390172a87cb0ae59f.setContent(html_5ceb5be6af0d2ad700a95f50c1e1c556);
+            
+        
+
+        marker_a158b436058042127d821c07b354891b.bindPopup(popup_26466e9e4990013390172a87cb0ae59f)
+        ;
+
+        
+    
+    
+            var marker_f7781ece4312c6809ad6599910368f7b = L.marker(
+                [42.9124218, -79.6175482],
+                {
+}
+            ).addTo(map_684972637482b9faae0679a04a7bba06);
+        
+    
+        var popup_f9750d700704a1f3bf5caf96892579bf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ac0bb11e71790c91f577ddf9e0227124 = $(`<div id="html_ac0bb11e71790c91f577ddf9e0227124" style="width: 100.0%; height: 100.0%;">223 Fairview Avenue W, Dunnville, ON, Canada</div>`)[0];
+                popup_f9750d700704a1f3bf5caf96892579bf.setContent(html_ac0bb11e71790c91f577ddf9e0227124);
+            
+        
+
+        marker_f7781ece4312c6809ad6599910368f7b.bindPopup(popup_f9750d700704a1f3bf5caf96892579bf)
+        ;
+
+        
+    
+    
+            var marker_d1c2bf93d71a640f3e7caf720ebc7b9a = L.marker(
+                [43.1813052, -80.2367115],
+                {
+}
+            ).addTo(map_684972637482b9faae0679a04a7bba06);
+        
+    
+        var popup_5fbeda231e56af1378fe986f7102f997 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_562035c8aba856efd69a8ca6bf210542 = $(`<div id="html_562035c8aba856efd69a8ca6bf210542" style="width: 100.0%; height: 100.0%;">238 Brantwood Park Road, Brantford, ON, Canada</div>`)[0];
+                popup_5fbeda231e56af1378fe986f7102f997.setContent(html_562035c8aba856efd69a8ca6bf210542);
+            
+        
+
+        marker_d1c2bf93d71a640f3e7caf720ebc7b9a.bindPopup(popup_5fbeda231e56af1378fe986f7102f997)
+        ;
+
+        
+    
+    
+            var marker_d3466eb8dcfb0b3857c13e363ae24f58 = L.marker(
+                [43.0618609, -79.9645732],
+                {
+}
+            ).addTo(map_684972637482b9faae0679a04a7bba06);
+        
+    
+        var popup_4013208a1946319fad51ec851bc69215 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_908e2d887a2d055ef991523b5213f223 = $(`<div id="html_908e2d887a2d055ef991523b5213f223" style="width: 100.0%; height: 100.0%;">35 Braemar Avenue, Caledonia, ON, Canada</div>`)[0];
+                popup_4013208a1946319fad51ec851bc69215.setContent(html_908e2d887a2d055ef991523b5213f223);
+            
+        
+
+        marker_d3466eb8dcfb0b3857c13e363ae24f58.bindPopup(popup_4013208a1946319fad51ec851bc69215)
+        ;
+
+        
+    
+    
+            var marker_d7d75bf0668b5aa85887f8a5945380a3 = L.marker(
+                [43.0087367, -79.9529446],
+                {
+}
+            ).addTo(map_684972637482b9faae0679a04a7bba06);
+        
+    
+        var popup_d1dcd360ba629162fe264a8ead359dcc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_605cf02b8b360ad52648d3534044a9c3 = $(`<div id="html_605cf02b8b360ad52648d3534044a9c3" style="width: 100.0%; height: 100.0%;">661 4Th Line, Caledonia, ON, Canada</div>`)[0];
+                popup_d1dcd360ba629162fe264a8ead359dcc.setContent(html_605cf02b8b360ad52648d3534044a9c3);
+            
+        
+
+        marker_d7d75bf0668b5aa85887f8a5945380a3.bindPopup(popup_d1dcd360ba629162fe264a8ead359dcc)
+        ;
+
+        
+    
+    
+            var marker_1f8c0a466bae4fa50e806e98e87107c0 = L.marker(
+                [42.8377372, -80.6344629],
+                {
+}
+            ).addTo(map_684972637482b9faae0679a04a7bba06);
+        
+    
+        var popup_472e5eea956ac78f1b85ebfc0fa37e0d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c1c9804ec90abf4beb195aac152f995b = $(`<div id="html_c1c9804ec90abf4beb195aac152f995b" style="width: 100.0%; height: 100.0%;">120 Talbot Street, Courtland, ON, Canada</div>`)[0];
+                popup_472e5eea956ac78f1b85ebfc0fa37e0d.setContent(html_c1c9804ec90abf4beb195aac152f995b);
+            
+        
+
+        marker_1f8c0a466bae4fa50e806e98e87107c0.bindPopup(popup_472e5eea956ac78f1b85ebfc0fa37e0d)
+        ;
+
+        
+    
+    
+            var marker_984c599f5ad5aed1d6649ff7fd85f77c = L.marker(
+                [43.1754743, -80.2855278],
+                {
+}
+            ).addTo(map_684972637482b9faae0679a04a7bba06);
+        
+    
+        var popup_0cc07c9b0878d27987200aa49380e342 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6c3fd17c3583105a588e94af611a5540 = $(`<div id="html_6c3fd17c3583105a588e94af611a5540" style="width: 100.0%; height: 100.0%;">55 Kent Road, Brantford, ON, Canada</div>`)[0];
+                popup_0cc07c9b0878d27987200aa49380e342.setContent(html_6c3fd17c3583105a588e94af611a5540);
+            
+        
+
+        marker_984c599f5ad5aed1d6649ff7fd85f77c.bindPopup(popup_0cc07c9b0878d27987200aa49380e342)
+        ;
+
+        
+    
+    
+            var marker_999a6885a2e61465385828b4feeb7deb = L.marker(
+                [43.1623197, -80.2574393],
+                {
+}
+            ).addTo(map_684972637482b9faae0679a04a7bba06);
+        
+    
+        var popup_827dcbd3eb64caf19839e65e280eec99 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a0146792412e35b56c338db691c2ed1a = $(`<div id="html_a0146792412e35b56c338db691c2ed1a" style="width: 100.0%; height: 100.0%;">40 Morton Avenue, Brantford, ON, Canada</div>`)[0];
+                popup_827dcbd3eb64caf19839e65e280eec99.setContent(html_a0146792412e35b56c338db691c2ed1a);
+            
+        
+
+        marker_999a6885a2e61465385828b4feeb7deb.bindPopup(popup_827dcbd3eb64caf19839e65e280eec99)
+        ;
+
+        
+    
+    
+            var marker_6793bd7caa9287989cc36e4cf663fc5a = L.marker(
+                [43.1244467, -80.2590497],
+                {
+}
+            ).addTo(map_684972637482b9faae0679a04a7bba06);
+        
+    
+        var popup_5b1273efb75583523684ef8a2db8d047 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_180811d425e5dff6da136cfc4b4faa66 = $(`<div id="html_180811d425e5dff6da136cfc4b4faa66" style="width: 100.0%; height: 100.0%;">60 Tecumseh Street, Brantford, ON, Canada</div>`)[0];
+                popup_5b1273efb75583523684ef8a2db8d047.setContent(html_180811d425e5dff6da136cfc4b4faa66);
+            
+        
+
+        marker_6793bd7caa9287989cc36e4cf663fc5a.bindPopup(popup_5b1273efb75583523684ef8a2db8d047)
+        ;
+
+        
+    
+    
+            var marker_fdc5583eec4013973a5e183429a39aab = L.marker(
+                [42.8815324, -79.8952882],
+                {
+}
+            ).addTo(map_684972637482b9faae0679a04a7bba06);
+        
+    
+        var popup_e2ff06988135dcec990529a3c0d6628d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_79d1a3f8d3ab5275352fe66136802e31 = $(`<div id="html_79d1a3f8d3ab5275352fe66136802e31" style="width: 100.0%; height: 100.0%;">572 Concession 5, Fisherville, ON, Canada</div>`)[0];
+                popup_e2ff06988135dcec990529a3c0d6628d.setContent(html_79d1a3f8d3ab5275352fe66136802e31);
+            
+        
+
+        marker_fdc5583eec4013973a5e183429a39aab.bindPopup(popup_e2ff06988135dcec990529a3c0d6628d)
+        ;
+
+        
+    
+    
+            var marker_9dbcaa2ac2601e44394ef3b21eb03430 = L.marker(
+                [43.1806851, -80.2579223],
+                {
+}
+            ).addTo(map_684972637482b9faae0679a04a7bba06);
+        
+    
+        var popup_767101b4fe22e9e72ba065210c584eb4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7560debbf3334a9bd8f4dc3d399189fc = $(`<div id="html_7560debbf3334a9bd8f4dc3d399189fc" style="width: 100.0%; height: 100.0%;">17 Ravenwood Road, Brantford, ON, Canada</div>`)[0];
+                popup_767101b4fe22e9e72ba065210c584eb4.setContent(html_7560debbf3334a9bd8f4dc3d399189fc);
+            
+        
+
+        marker_9dbcaa2ac2601e44394ef3b21eb03430.bindPopup(popup_767101b4fe22e9e72ba065210c584eb4)
+        ;
+
+        
+    
+    
+            var marker_5d1f391740514e586ad930e01bc5971c = L.marker(
+                [43.0693816, -79.9509352],
+                {
+}
+            ).addTo(map_684972637482b9faae0679a04a7bba06);
+        
+    
+        var popup_720eaa681244015b4656cee126e7551c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c69af8389a130ef06093b6fe6ffefc29 = $(`<div id="html_c69af8389a130ef06093b6fe6ffefc29" style="width: 100.0%; height: 100.0%;">37 Forfar Street E, Caledonia, ON, Canada</div>`)[0];
+                popup_720eaa681244015b4656cee126e7551c.setContent(html_c69af8389a130ef06093b6fe6ffefc29);
+            
+        
+
+        marker_5d1f391740514e586ad930e01bc5971c.bindPopup(popup_720eaa681244015b4656cee126e7551c)
+        ;
+
+        
+    
+    
+            var marker_9e845135db80d2c7fce0dca4c4d5eb83 = L.marker(
+                [43.0219997, -79.8947117],
+                {
+}
+            ).addTo(map_684972637482b9faae0679a04a7bba06);
+        
+    
+        var popup_9cc0aa56bbf07714477a44a029d4dbd9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_79d44b25a236947f5ce7181188e228cf = $(`<div id="html_79d44b25a236947f5ce7181188e228cf" style="width: 100.0%; height: 100.0%;">2767 Regional Road 9, York, ON, Canada</div>`)[0];
+                popup_9cc0aa56bbf07714477a44a029d4dbd9.setContent(html_79d44b25a236947f5ce7181188e228cf);
+            
+        
+
+        marker_9e845135db80d2c7fce0dca4c4d5eb83.bindPopup(popup_9cc0aa56bbf07714477a44a029d4dbd9)
+        ;
+
+        
+    
+    
+            var marker_938788e81edb34f5599de8114b083359 = L.marker(
+                [42.7967877, -80.223666],
+                {
+}
+            ).addTo(map_684972637482b9faae0679a04a7bba06);
+        
+    
+        var popup_29feae1592960554a9c22beff5bd9936 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1f4a1dfd5da03612f7b465b516415aca = $(`<div id="html_1f4a1dfd5da03612f7b465b516415aca" style="width: 100.0%; height: 100.0%;">3 Lynn Park Avenue, Port Dover, ON, Canada</div>`)[0];
+                popup_29feae1592960554a9c22beff5bd9936.setContent(html_1f4a1dfd5da03612f7b465b516415aca);
+            
+        
+
+        marker_938788e81edb34f5599de8114b083359.bindPopup(popup_29feae1592960554a9c22beff5bd9936)
+        ;
+
+        
+    
+    
+            var marker_446ee742460b26949a8c5c7aa39d9d51 = L.marker(
+                [43.2443206, -80.2581572],
+                {
+}
+            ).addTo(map_684972637482b9faae0679a04a7bba06);
+        
+    
+        var popup_4dcca2e21140f3c59644bd1ef25e5eb4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_747b6481a39acf4bec72326231f29a57 = $(`<div id="html_747b6481a39acf4bec72326231f29a57" style="width: 100.0%; height: 100.0%;">3 College Street, St George, ON, Canada</div>`)[0];
+                popup_4dcca2e21140f3c59644bd1ef25e5eb4.setContent(html_747b6481a39acf4bec72326231f29a57);
+            
+        
+
+        marker_446ee742460b26949a8c5c7aa39d9d51.bindPopup(popup_4dcca2e21140f3c59644bd1ef25e5eb4)
+        ;
+
+        
+    
+    
+            var marker_82671173d1540e3b02919fd825315720 = L.marker(
+                [43.1844797, -80.2680438],
+                {
+}
+            ).addTo(map_684972637482b9faae0679a04a7bba06);
+        
+    
+        var popup_21589f3cc12bc94beb2dcecbe36cdca8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_14906bd7dedcc8ef01e617234617922a = $(`<div id="html_14906bd7dedcc8ef01e617234617922a" style="width: 100.0%; height: 100.0%;">233 Memorial Drive, Brantford, ON, Canada</div>`)[0];
+                popup_21589f3cc12bc94beb2dcecbe36cdca8.setContent(html_14906bd7dedcc8ef01e617234617922a);
+            
+        
+
+        marker_82671173d1540e3b02919fd825315720.bindPopup(popup_21589f3cc12bc94beb2dcecbe36cdca8)
+        ;
+
+        
+    
+    
+            var marker_11d132af204b3ac051dd70e1d4a2e842 = L.marker(
+                [42.9569702, -80.0582162],
+                {
+}
+            ).addTo(map_684972637482b9faae0679a04a7bba06);
+        
+    
+        var popup_749f976470f07c2872a0f083f02d41d8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5768a0d0ad44a7f0abe8c04191b648f8 = $(`<div id="html_5768a0d0ad44a7f0abe8c04191b648f8" style="width: 100.0%; height: 100.0%;">92 Main Street South, Hagersville, ON, Canada</div>`)[0];
+                popup_749f976470f07c2872a0f083f02d41d8.setContent(html_5768a0d0ad44a7f0abe8c04191b648f8);
+            
+        
+
+        marker_11d132af204b3ac051dd70e1d4a2e842.bindPopup(popup_749f976470f07c2872a0f083f02d41d8)
+        ;
+
+        
+    
+    
+            var marker_52875f3a24234f372c8c5f68fffbea82 = L.marker(
+                [42.9065393, -79.6201183],
+                {
+}
+            ).addTo(map_684972637482b9faae0679a04a7bba06);
+        
+    
+        var popup_4c1567faab0cd7ff18db5ab42d6702c4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b4fe8a878d4b9d870190598dd20a4079 = $(`<div id="html_b4fe8a878d4b9d870190598dd20a4079" style="width: 100.0%; height: 100.0%;">209 Alder Street West, Dunnville, ON, Canada</div>`)[0];
+                popup_4c1567faab0cd7ff18db5ab42d6702c4.setContent(html_b4fe8a878d4b9d870190598dd20a4079);
+            
+        
+
+        marker_52875f3a24234f372c8c5f68fffbea82.bindPopup(popup_4c1567faab0cd7ff18db5ab42d6702c4)
+        ;
+
+        
+    
+    
+            var marker_b0a7f62f274adaf9da692325e2b4a546 = L.marker(
+                [43.1696557, -80.2578043],
+                {
+}
+            ).addTo(map_684972637482b9faae0679a04a7bba06);
+        
+    
+        var popup_3cbdee9ffc49757d0c9ce2d486b4704f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_36576fef21444638b5b7e7878f62e092 = $(`<div id="html_36576fef21444638b5b7e7878f62e092" style="width: 100.0%; height: 100.0%;">320 Fairview Drive, Brantford, ON, Canada</div>`)[0];
+                popup_3cbdee9ffc49757d0c9ce2d486b4704f.setContent(html_36576fef21444638b5b7e7878f62e092);
+            
+        
+
+        marker_b0a7f62f274adaf9da692325e2b4a546.bindPopup(popup_3cbdee9ffc49757d0c9ce2d486b4704f)
+        ;
+
+        
+    
+    
+            var marker_e13c7cb171fd2e35124e22a63afc97b3 = L.marker(
+                [43.0751919, -79.9472429],
+                {
+}
+            ).addTo(map_684972637482b9faae0679a04a7bba06);
+        
+    
+        var popup_a632a0e917ced534aee9215a13a289ca = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b683fa46daa0d299daf47a34846e755b = $(`<div id="html_b683fa46daa0d299daf47a34846e755b" style="width: 100.0%; height: 100.0%;">81 Orkney Street E, Caledonia, ON, Canada</div>`)[0];
+                popup_a632a0e917ced534aee9215a13a289ca.setContent(html_b683fa46daa0d299daf47a34846e755b);
+            
+        
+
+        marker_e13c7cb171fd2e35124e22a63afc97b3.bindPopup(popup_a632a0e917ced534aee9215a13a289ca)
+        ;
+
+        
+    
+    
+            var marker_c8ac708c4d362a85442de0caa0521cd0 = L.marker(
+                [43.1434974, -80.2196803],
+                {
+}
+            ).addTo(map_684972637482b9faae0679a04a7bba06);
+        
+    
+        var popup_9e3e94a52182c46cc50c7ead2877c561 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7146e87d4fb0020b64dd43f63f221d64 = $(`<div id="html_7146e87d4fb0020b64dd43f63f221d64" style="width: 100.0%; height: 100.0%;">175 Glenwood Drive, Brantford, ON, Canada</div>`)[0];
+                popup_9e3e94a52182c46cc50c7ead2877c561.setContent(html_7146e87d4fb0020b64dd43f63f221d64);
+            
+        
+
+        marker_c8ac708c4d362a85442de0caa0521cd0.bindPopup(popup_9e3e94a52182c46cc50c7ead2877c561)
+        ;
+
+        
+    
+    
+            var marker_014da6a7aac492c009585e02c0cd77d4 = L.marker(
+                [42.9475907, -79.8570173],
+                {
+}
+            ).addTo(map_684972637482b9faae0679a04a7bba06);
+        
+    
+        var popup_099af37b0a59d394ca04c21466976547 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_867cee9b8d4471a1dcc3efc50adab93c = $(`<div id="html_867cee9b8d4471a1dcc3efc50adab93c" style="width: 100.0%; height: 100.0%;">17 Brant Street West, Cayuga, ON, Canada</div>`)[0];
+                popup_099af37b0a59d394ca04c21466976547.setContent(html_867cee9b8d4471a1dcc3efc50adab93c);
+            
+        
+
+        marker_014da6a7aac492c009585e02c0cd77d4.bindPopup(popup_099af37b0a59d394ca04c21466976547)
+        ;
+
+        
+    
+    
+            var marker_6a832a004cd3ee7921b07271e6e26c40 = L.marker(
+                [42.9135974, -79.6308612],
+                {
+}
+            ).addTo(map_684972637482b9faae0679a04a7bba06);
+        
+    
+        var popup_920d19629a9d12efdc163e01b611564e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4a535ac5dd54407f5d52919998c0c995 = $(`<div id="html_4a535ac5dd54407f5d52919998c0c995" style="width: 100.0%; height: 100.0%;">800 Cross Street W, Dunnville, ON, Canada</div>`)[0];
+                popup_920d19629a9d12efdc163e01b611564e.setContent(html_4a535ac5dd54407f5d52919998c0c995);
+            
+        
+
+        marker_6a832a004cd3ee7921b07271e6e26c40.bindPopup(popup_920d19629a9d12efdc163e01b611564e)
+        ;
+
+        
+    
+    
+            var marker_da4b0c2209fbd242c9ad62f83b2ec622 = L.marker(
+                [42.9227827, -80.1071477],
+                {
+}
+            ).addTo(map_684972637482b9faae0679a04a7bba06);
+        
+    
+        var popup_957cfb1e311621b9a0c06236f9ab889f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_107d512f54f63690c03902239c8b7abe = $(`<div id="html_107d512f54f63690c03902239c8b7abe" style="width: 100.0%; height: 100.0%;">1895 Haldimand Road 55, Hagersville, ON, Canada</div>`)[0];
+                popup_957cfb1e311621b9a0c06236f9ab889f.setContent(html_107d512f54f63690c03902239c8b7abe);
+            
+        
+
+        marker_da4b0c2209fbd242c9ad62f83b2ec622.bindPopup(popup_957cfb1e311621b9a0c06236f9ab889f)
+        ;
+
+        
+    
+    
+            var marker_031573c55838088f8b20aec8cecfa62d = L.marker(
+                [43.1467066, -80.2304099],
+                {
+}
+            ).addTo(map_684972637482b9faae0679a04a7bba06);
+        
+    
+        var popup_41e978740e7d340c0a9a1ec69bf8221a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4889ddd180130de5322d5667e31f91f0 = $(`<div id="html_4889ddd180130de5322d5667e31f91f0" style="width: 100.0%; height: 100.0%;">51 Woodman Drive, Brantford, ON, Canada</div>`)[0];
+                popup_41e978740e7d340c0a9a1ec69bf8221a.setContent(html_4889ddd180130de5322d5667e31f91f0);
+            
+        
+
+        marker_031573c55838088f8b20aec8cecfa62d.bindPopup(popup_41e978740e7d340c0a9a1ec69bf8221a)
+        ;
+
+        
+    
+    
+            map_684972637482b9faae0679a04a7bba06.fitBounds(
+                [[43.1231816, -80.2507774], [42.9912172, -80.2711596], [43.1813052, -80.2367115], [43.1768099, -80.2554986], [43.0990038, -80.4318403], [43.0764674, -79.9527583], [43.1839843, -80.2623495], [43.1755151, -80.2658105], [43.1445146, -80.2621808], [43.1486691, -80.2838258], [43.1416283, -80.2326317], [42.8366041, -80.3148049], [43.1532371, -80.2689588], [43.1790894, -80.2737356], [42.9554399, -80.050238], [42.9446912, -79.8516069], [42.8879413, -80.1096193], [43.1454833, -80.2477411], [42.7892916, -80.213303], [42.7392363, -80.5820857], [43.1214204, -80.2499754], [43.1373586, -80.2468812], [42.9124218, -79.6175482], [43.1813052, -80.2367115], [43.0618609, -79.9645732], [43.0087367, -79.9529446], [42.8377372, -80.6344629], [43.1754743, -80.2855278], [43.1623197, -80.2574393], [43.1244467, -80.2590497], [42.8815324, -79.8952882], [43.1806851, -80.2579223], [43.0693816, -79.9509352], [43.0219997, -79.8947117], [42.7967877, -80.223666], [43.2443206, -80.2581572], [43.1844797, -80.2680438], [42.9569702, -80.0582162], [42.9065393, -79.6201183], [43.1696557, -80.2578043], [43.0751919, -79.9472429], [43.1434974, -80.2196803], [42.9475907, -79.8570173], [42.9135974, -79.6308612], [42.9227827, -80.1071477], [43.1467066, -80.2304099]],
+                {}
+            );
+        
+</script>
+</html>

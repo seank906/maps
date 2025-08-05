@@ -1,0 +1,1595 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_8ced305905605d1b3b0c62cf059bbe60 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_8ced305905605d1b3b0c62cf059bbe60" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_8ced305905605d1b3b0c62cf059bbe60 = L.map(
+                "map_8ced305905605d1b3b0c62cf059bbe60",
+                {
+                    center: [0.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 1,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_eb4563f775d774098a18c75264e9f905 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_eb4563f775d774098a18c75264e9f905.addTo(map_8ced305905605d1b3b0c62cf059bbe60);
+        
+    
+            var marker_f8d1cbaf212febd06e60696002afaad2 = L.marker(
+                [44.3645656, -79.6857353],
+                {
+}
+            ).addTo(map_8ced305905605d1b3b0c62cf059bbe60);
+        
+    
+        var popup_52a225b69651f662ee9fe2fefff122bb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d524f88ca2ea2fdc3661c674df02849d = $(`<div id="html_d524f88ca2ea2fdc3661c674df02849d" style="width: 100.0%; height: 100.0%;">124 Bayview Drive, Barrie, ON, Canada</div>`)[0];
+                popup_52a225b69651f662ee9fe2fefff122bb.setContent(html_d524f88ca2ea2fdc3661c674df02849d);
+            
+        
+
+        marker_f8d1cbaf212febd06e60696002afaad2.bindPopup(popup_52a225b69651f662ee9fe2fefff122bb)
+        ;
+
+        
+    
+    
+            var marker_ba32e13fd620b19874a24cd1b6eb6e10 = L.marker(
+                [44.3908662, -79.7262343],
+                {
+}
+            ).addTo(map_8ced305905605d1b3b0c62cf059bbe60);
+        
+    
+        var popup_58fd9446e4aec84deb7ac47083078d05 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6831f79dc588ddad7b7fc42007b57699 = $(`<div id="html_6831f79dc588ddad7b7fc42007b57699" style="width: 100.0%; height: 100.0%;">59 Lampman Ln, Barrie, ON, Canada</div>`)[0];
+                popup_58fd9446e4aec84deb7ac47083078d05.setContent(html_6831f79dc588ddad7b7fc42007b57699);
+            
+        
+
+        marker_ba32e13fd620b19874a24cd1b6eb6e10.bindPopup(popup_58fd9446e4aec84deb7ac47083078d05)
+        ;
+
+        
+    
+    
+            var marker_c58ebc5c7347c0a9616a501475670baa = L.marker(
+                [44.3552132, -79.7268025],
+                {
+}
+            ).addTo(map_8ced305905605d1b3b0c62cf059bbe60);
+        
+    
+        var popup_3be549d9d30b41f8f78f7a739ace7652 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6812ce03684d581251c9a0ba39713883 = $(`<div id="html_6812ce03684d581251c9a0ba39713883" style="width: 100.0%; height: 100.0%;">159 Summerset Drive, Barrie, ON, Canada</div>`)[0];
+                popup_3be549d9d30b41f8f78f7a739ace7652.setContent(html_6812ce03684d581251c9a0ba39713883);
+            
+        
+
+        marker_c58ebc5c7347c0a9616a501475670baa.bindPopup(popup_3be549d9d30b41f8f78f7a739ace7652)
+        ;
+
+        
+    
+    
+            var marker_6007781d1e0d9f738227402809441641 = L.marker(
+                [44.3647931, -79.6716093],
+                {
+}
+            ).addTo(map_8ced305905605d1b3b0c62cf059bbe60);
+        
+    
+        var popup_419bb53e5d43a68523eaaefdf7f8bf09 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_56b22f63a7f729213c62bb5bd9bfaac6 = $(`<div id="html_56b22f63a7f729213c62bb5bd9bfaac6" style="width: 100.0%; height: 100.0%;">226 Little Avenue, Barrie, ON, Canada</div>`)[0];
+                popup_419bb53e5d43a68523eaaefdf7f8bf09.setContent(html_56b22f63a7f729213c62bb5bd9bfaac6);
+            
+        
+
+        marker_6007781d1e0d9f738227402809441641.bindPopup(popup_419bb53e5d43a68523eaaefdf7f8bf09)
+        ;
+
+        
+    
+    
+            var marker_7b494a21a52913990c3e42d3f4a7b499 = L.marker(
+                [44.7478229, -79.9030368],
+                {
+}
+            ).addTo(map_8ced305905605d1b3b0c62cf059bbe60);
+        
+    
+        var popup_ce28f8b674331a1a95d77fab9d3617d8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7c49fa6183d8819afb1dc276def54a96 = $(`<div id="html_7c49fa6183d8819afb1dc276def54a96" style="width: 100.0%; height: 100.0%;">845 Ottawa Street, Midland, ON, Canada</div>`)[0];
+                popup_ce28f8b674331a1a95d77fab9d3617d8.setContent(html_7c49fa6183d8819afb1dc276def54a96);
+            
+        
+
+        marker_7b494a21a52913990c3e42d3f4a7b499.bindPopup(popup_ce28f8b674331a1a95d77fab9d3617d8)
+        ;
+
+        
+    
+    
+            var marker_d8c27c85fc790ae19b83de904080b5fc = L.marker(
+                [44.3974202, -79.6758969],
+                {
+}
+            ).addTo(map_8ced305905605d1b3b0c62cf059bbe60);
+        
+    
+        var popup_1d00b7fb98fc6faaa1c4cce6ee1ed058 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dc20425ab4b2ab4b30b7957608c43e42 = $(`<div id="html_dc20425ab4b2ab4b30b7957608c43e42" style="width: 100.0%; height: 100.0%;">217 Codrington Street, Barrie, ON, Canada</div>`)[0];
+                popup_1d00b7fb98fc6faaa1c4cce6ee1ed058.setContent(html_dc20425ab4b2ab4b30b7957608c43e42);
+            
+        
+
+        marker_d8c27c85fc790ae19b83de904080b5fc.bindPopup(popup_1d00b7fb98fc6faaa1c4cce6ee1ed058)
+        ;
+
+        
+    
+    
+            var marker_a3938646b4744ce6ed8505d8251d634e = L.marker(
+                [44.7121346, -79.6400425],
+                {
+}
+            ).addTo(map_8ced305905605d1b3b0c62cf059bbe60);
+        
+    
+        var popup_6bd9c280af7fed07cd212295196fb2a7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6b3d79b395cb00dc74b74b6b0b39f344 = $(`<div id="html_6b3d79b395cb00dc74b74b6b0b39f344" style="width: 100.0%; height: 100.0%;">3 John Street, Severn, ON, Canada</div>`)[0];
+                popup_6bd9c280af7fed07cd212295196fb2a7.setContent(html_6b3d79b395cb00dc74b74b6b0b39f344);
+            
+        
+
+        marker_a3938646b4744ce6ed8505d8251d634e.bindPopup(popup_6bd9c280af7fed07cd212295196fb2a7)
+        ;
+
+        
+    
+    
+            var marker_9915615df2466320f442af39892138ec = L.marker(
+                [44.6278317, -79.4241219],
+                {
+}
+            ).addTo(map_8ced305905605d1b3b0c62cf059bbe60);
+        
+    
+        var popup_e9c39d0c57010dcc3b86dbf65a640907 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0e8b85c572cfaf57f0f226181bf52726 = $(`<div id="html_0e8b85c572cfaf57f0f226181bf52726" style="width: 100.0%; height: 100.0%;">455 Laclie Street, Orillia, ON, Canada</div>`)[0];
+                popup_e9c39d0c57010dcc3b86dbf65a640907.setContent(html_0e8b85c572cfaf57f0f226181bf52726);
+            
+        
+
+        marker_9915615df2466320f442af39892138ec.bindPopup(popup_e9c39d0c57010dcc3b86dbf65a640907)
+        ;
+
+        
+    
+    
+            var marker_aa2758096f00484b4eb254baa75237c8 = L.marker(
+                [44.4080115, -79.6991758],
+                {
+}
+            ).addTo(map_8ced305905605d1b3b0c62cf059bbe60);
+        
+    
+        var popup_d0035c8380eb1c1c5f22cd0f25b98ec9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2401ca9e778d9836802631e791b478e2 = $(`<div id="html_2401ca9e778d9836802631e791b478e2" style="width: 100.0%; height: 100.0%;">60 Cundles Road East, Barrie, ON, Canada</div>`)[0];
+                popup_d0035c8380eb1c1c5f22cd0f25b98ec9.setContent(html_2401ca9e778d9836802631e791b478e2);
+            
+        
+
+        marker_aa2758096f00484b4eb254baa75237c8.bindPopup(popup_d0035c8380eb1c1c5f22cd0f25b98ec9)
+        ;
+
+        
+    
+    
+            var marker_29520af7ff0f1d60d3f15b3355ca4d48 = L.marker(
+                [44.5278383, -79.4957059],
+                {
+}
+            ).addTo(map_8ced305905605d1b3b0c62cf059bbe60);
+        
+    
+        var popup_631b6a5cc223f01dc6ece7dacc7b72e7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_baa917acad3f654c34cb85425095036b = $(`<div id="html_baa917acad3f654c34cb85425095036b" style="width: 100.0%; height: 100.0%;">744 Line 11 N, Oro-Medonte, ON, Canada</div>`)[0];
+                popup_631b6a5cc223f01dc6ece7dacc7b72e7.setContent(html_baa917acad3f654c34cb85425095036b);
+            
+        
+
+        marker_29520af7ff0f1d60d3f15b3355ca4d48.bindPopup(popup_631b6a5cc223f01dc6ece7dacc7b72e7)
+        ;
+
+        
+    
+    
+            var marker_071de7a1dcf540b5fa7eb13566800be8 = L.marker(
+                [44.3957476, -79.7316865],
+                {
+}
+            ).addTo(map_8ced305905605d1b3b0c62cf059bbe60);
+        
+    
+        var popup_13aad881f2a159d6911a140cbdb292ed = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_20e7ebd305ca1397b058766ea744994d = $(`<div id="html_20e7ebd305ca1397b058766ea744994d" style="width: 100.0%; height: 100.0%;">383 Cundles Road W, Barrie, ON, Canada</div>`)[0];
+                popup_13aad881f2a159d6911a140cbdb292ed.setContent(html_20e7ebd305ca1397b058766ea744994d);
+            
+        
+
+        marker_071de7a1dcf540b5fa7eb13566800be8.bindPopup(popup_13aad881f2a159d6911a140cbdb292ed)
+        ;
+
+        
+    
+    
+            var marker_b5a5c4fb5b421405aafb5a0ed645aa18 = L.marker(
+                [44.3582371, -79.7166984],
+                {
+}
+            ).addTo(map_8ced305905605d1b3b0c62cf059bbe60);
+        
+    
+        var popup_04c0d0400dfef6c93f33048d706d1ca3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b3a46b53acf132241f1c9e26c1da3756 = $(`<div id="html_b3a46b53acf132241f1c9e26c1da3756" style="width: 100.0%; height: 100.0%;">170 Ferndale Drive S, Barrie, ON, Canada</div>`)[0];
+                popup_04c0d0400dfef6c93f33048d706d1ca3.setContent(html_b3a46b53acf132241f1c9e26c1da3756);
+            
+        
+
+        marker_b5a5c4fb5b421405aafb5a0ed645aa18.bindPopup(popup_04c0d0400dfef6c93f33048d706d1ca3)
+        ;
+
+        
+    
+    
+            var marker_f7493c00f44728a8927e444e8a5e8ea3 = L.marker(
+                [44.5976309, -79.4317758],
+                {
+}
+            ).addTo(map_8ced305905605d1b3b0c62cf059bbe60);
+        
+    
+        var popup_724c660fb331fbd0e3bbd7a04c5cb798 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c70c865ae845143eb244b0bfcf0a03ab = $(`<div id="html_c70c865ae845143eb244b0bfcf0a03ab" style="width: 100.0%; height: 100.0%;">11 George Street, Orillia, ON, Canada</div>`)[0];
+                popup_724c660fb331fbd0e3bbd7a04c5cb798.setContent(html_c70c865ae845143eb244b0bfcf0a03ab);
+            
+        
+
+        marker_f7493c00f44728a8927e444e8a5e8ea3.bindPopup(popup_724c660fb331fbd0e3bbd7a04c5cb798)
+        ;
+
+        
+    
+    
+            var marker_87e74c090fd2d44fdf5d13e966d6ecf1 = L.marker(
+                [44.3600876, -79.6207846],
+                {
+}
+            ).addTo(map_8ced305905605d1b3b0c62cf059bbe60);
+        
+    
+        var popup_3f87d9ac6ae620ced00a4b6274d399da = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_28ee01b34bc1d4b3586627f3dc1b8b0d = $(`<div id="html_28ee01b34bc1d4b3586627f3dc1b8b0d" style="width: 100.0%; height: 100.0%;">41 Sandringham Drive, Barrie, ON, Canada</div>`)[0];
+                popup_3f87d9ac6ae620ced00a4b6274d399da.setContent(html_28ee01b34bc1d4b3586627f3dc1b8b0d);
+            
+        
+
+        marker_87e74c090fd2d44fdf5d13e966d6ecf1.bindPopup(popup_3f87d9ac6ae620ced00a4b6274d399da)
+        ;
+
+        
+    
+    
+            var marker_55f8a639b9e1568d809d52a58f084d6c = L.marker(
+                [44.3934603, -79.6994623],
+                {
+}
+            ).addTo(map_8ced305905605d1b3b0c62cf059bbe60);
+        
+    
+        var popup_47492f79e69f43fb7e39ea2d47633787 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d1af1dc12dec548eff9e3de8cf574a63 = $(`<div id="html_d1af1dc12dec548eff9e3de8cf574a63" style="width: 100.0%; height: 100.0%;">184 Toronto Street, Barrie, ON, Canada</div>`)[0];
+                popup_47492f79e69f43fb7e39ea2d47633787.setContent(html_d1af1dc12dec548eff9e3de8cf574a63);
+            
+        
+
+        marker_55f8a639b9e1568d809d52a58f084d6c.bindPopup(popup_47492f79e69f43fb7e39ea2d47633787)
+        ;
+
+        
+    
+    
+            var marker_dec617aa838767baf1844669d52e063a = L.marker(
+                [44.3395642, -79.7147604],
+                {
+}
+            ).addTo(map_8ced305905605d1b3b0c62cf059bbe60);
+        
+    
+        var popup_41916c396691c8b0136c37d05bb604d8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_98cff243f600c9a8bf11f161357c96f0 = $(`<div id="html_98cff243f600c9a8bf11f161357c96f0" style="width: 100.0%; height: 100.0%;">151 Mapleton Avenue, Barrie, ON, Canada</div>`)[0];
+                popup_41916c396691c8b0136c37d05bb604d8.setContent(html_98cff243f600c9a8bf11f161357c96f0);
+            
+        
+
+        marker_dec617aa838767baf1844669d52e063a.bindPopup(popup_41916c396691c8b0136c37d05bb604d8)
+        ;
+
+        
+    
+    
+            var marker_f83b1334f1dfde0de604bd7502f4322d = L.marker(
+                [44.7432848, -79.8759213],
+                {
+}
+            ).addTo(map_8ced305905605d1b3b0c62cf059bbe60);
+        
+    
+        var popup_d2ea16acff1dccfb25a7ae6ed1b118b9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_099ff8780f0bc767414fa176fe2a08a4 = $(`<div id="html_099ff8780f0bc767414fa176fe2a08a4" style="width: 100.0%; height: 100.0%;">425 Robert Street, Midland, ON, Canada</div>`)[0];
+                popup_d2ea16acff1dccfb25a7ae6ed1b118b9.setContent(html_099ff8780f0bc767414fa176fe2a08a4);
+            
+        
+
+        marker_f83b1334f1dfde0de604bd7502f4322d.bindPopup(popup_d2ea16acff1dccfb25a7ae6ed1b118b9)
+        ;
+
+        
+    
+    
+            var marker_ac5366ee1551aefa7ce967246b1d218f = L.marker(
+                [44.3591309, -79.6078052],
+                {
+}
+            ).addTo(map_8ced305905605d1b3b0c62cf059bbe60);
+        
+    
+        var popup_ee9951dae52de43e49b7ae0bd4320826 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5cf25d8199ff8b36b59352b09a082586 = $(`<div id="html_5cf25d8199ff8b36b59352b09a082586" style="width: 100.0%; height: 100.0%;">72 The Queensway, Barrie, ON, Canada</div>`)[0];
+                popup_ee9951dae52de43e49b7ae0bd4320826.setContent(html_5cf25d8199ff8b36b59352b09a082586);
+            
+        
+
+        marker_ac5366ee1551aefa7ce967246b1d218f.bindPopup(popup_ee9951dae52de43e49b7ae0bd4320826)
+        ;
+
+        
+    
+    
+            var marker_e8ce896dcefe255e76dc11172418d78f = L.marker(
+                [44.3989559, -79.6553277],
+                {
+}
+            ).addTo(map_8ced305905605d1b3b0c62cf059bbe60);
+        
+    
+        var popup_890ed60d52e3e0831ecf6a244e09b433 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_685155ce8c8c907c032d8e5532813652 = $(`<div id="html_685155ce8c8c907c032d8e5532813652" style="width: 100.0%; height: 100.0%;">105 Johnson Street, Barrie, ON, Canada</div>`)[0];
+                popup_890ed60d52e3e0831ecf6a244e09b433.setContent(html_685155ce8c8c907c032d8e5532813652);
+            
+        
+
+        marker_e8ce896dcefe255e76dc11172418d78f.bindPopup(popup_890ed60d52e3e0831ecf6a244e09b433)
+        ;
+
+        
+    
+    
+            var marker_ecd33b919d6ecad4b257738019006abd = L.marker(
+                [44.6115841, -79.4246401],
+                {
+}
+            ).addTo(map_8ced305905605d1b3b0c62cf059bbe60);
+        
+    
+        var popup_80fdcae9f28981fcaf6ad49206d105e1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_722a3682b1aca863f5dfba250cd7d0c3 = $(`<div id="html_722a3682b1aca863f5dfba250cd7d0c3" style="width: 100.0%; height: 100.0%;">25 Brant Street W, Orillia, ON, Canada</div>`)[0];
+                popup_80fdcae9f28981fcaf6ad49206d105e1.setContent(html_722a3682b1aca863f5dfba250cd7d0c3);
+            
+        
+
+        marker_ecd33b919d6ecad4b257738019006abd.bindPopup(popup_80fdcae9f28981fcaf6ad49206d105e1)
+        ;
+
+        
+    
+    
+            var marker_df015c337ca211964aab8096cf24eced = L.marker(
+                [44.406126, -79.6788742],
+                {
+}
+            ).addTo(map_8ced305905605d1b3b0c62cf059bbe60);
+        
+    
+        var popup_732889ffd28e9b598a2a9a2102272b01 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_681983742c73f59aa648456a7afa075c = $(`<div id="html_681983742c73f59aa648456a7afa075c" style="width: 100.0%; height: 100.0%;">242 Grove Street E, Barrie, ON, Canada</div>`)[0];
+                popup_732889ffd28e9b598a2a9a2102272b01.setContent(html_681983742c73f59aa648456a7afa075c);
+            
+        
+
+        marker_df015c337ca211964aab8096cf24eced.bindPopup(popup_732889ffd28e9b598a2a9a2102272b01)
+        ;
+
+        
+    
+    
+            var marker_a1938f3f3787b1b5f13414f1ee4f0300 = L.marker(
+                [44.3504999, -79.6472352],
+                {
+}
+            ).addTo(map_8ced305905605d1b3b0c62cf059bbe60);
+        
+    
+        var popup_16ff0e97c6ef461fa93645ee90b3ac20 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_20c71a4c50364fc21dd7cf09b77221ae = $(`<div id="html_20c71a4c50364fc21dd7cf09b77221ae" style="width: 100.0%; height: 100.0%;">180 Esther Drive, Barrie, ON, Canada</div>`)[0];
+                popup_16ff0e97c6ef461fa93645ee90b3ac20.setContent(html_20c71a4c50364fc21dd7cf09b77221ae);
+            
+        
+
+        marker_a1938f3f3787b1b5f13414f1ee4f0300.bindPopup(popup_16ff0e97c6ef461fa93645ee90b3ac20)
+        ;
+
+        
+    
+    
+            var marker_0d9cb5f1ea820361cfc7c3d25184a5c4 = L.marker(
+                [44.6260313, -79.5005294],
+                {
+}
+            ).addTo(map_8ced305905605d1b3b0c62cf059bbe60);
+        
+    
+        var popup_d7e3dacaee3ef083113e5a8ef7bfa250 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b09a60626052d6bc22cb1b5eeaa13dcc = $(`<div id="html_b09a60626052d6bc22cb1b5eeaa13dcc" style="width: 100.0%; height: 100.0%;">1902 Division Road W, Severn, ON, Canada</div>`)[0];
+                popup_d7e3dacaee3ef083113e5a8ef7bfa250.setContent(html_b09a60626052d6bc22cb1b5eeaa13dcc);
+            
+        
+
+        marker_0d9cb5f1ea820361cfc7c3d25184a5c4.bindPopup(popup_d7e3dacaee3ef083113e5a8ef7bfa250)
+        ;
+
+        
+    
+    
+            var marker_b23305ccb7adde7934744d68a4996c15 = L.marker(
+                [44.7443097, -79.914138],
+                {
+}
+            ).addTo(map_8ced305905605d1b3b0c62cf059bbe60);
+        
+    
+        var popup_3fb5640d84fc14ad0268b96ced2924c4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_548283c7f39aa04ebe3e76eee5cb653d = $(`<div id="html_548283c7f39aa04ebe3e76eee5cb653d" style="width: 100.0%; height: 100.0%;">120 Penetanguishene Road, Midland, ON, Canada</div>`)[0];
+                popup_3fb5640d84fc14ad0268b96ced2924c4.setContent(html_548283c7f39aa04ebe3e76eee5cb653d);
+            
+        
+
+        marker_b23305ccb7adde7934744d68a4996c15.bindPopup(popup_3fb5640d84fc14ad0268b96ced2924c4)
+        ;
+
+        
+    
+    
+            var marker_377ca4b8f9388dfcbfb7d45ca2161950 = L.marker(
+                [44.4145453, -79.6850408],
+                {
+}
+            ).addTo(map_8ced305905605d1b3b0c62cf059bbe60);
+        
+    
+        var popup_11f81a9f5df7afa08a82d890274f50d6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c0598f9228b414e1a6c85b8353285aa8 = $(`<div id="html_c0598f9228b414e1a6c85b8353285aa8" style="width: 100.0%; height: 100.0%;">345 Livingstone Street E, Barrie, ON, Canada</div>`)[0];
+                popup_11f81a9f5df7afa08a82d890274f50d6.setContent(html_c0598f9228b414e1a6c85b8353285aa8);
+            
+        
+
+        marker_377ca4b8f9388dfcbfb7d45ca2161950.bindPopup(popup_11f81a9f5df7afa08a82d890274f50d6)
+        ;
+
+        
+    
+    
+            var marker_1b4a8105b8bd2b56d4673f901dc43c90 = L.marker(
+                [44.6240581, -79.4302106],
+                {
+}
+            ).addTo(map_8ced305905605d1b3b0c62cf059bbe60);
+        
+    
+        var popup_3cf6dcfa643907f4f64d625b2013d74f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cedd51101cf45d1120109c213c5ea4aa = $(`<div id="html_cedd51101cf45d1120109c213c5ea4aa" style="width: 100.0%; height: 100.0%;">14 Fittons Road E, Orillia, ON, Canada</div>`)[0];
+                popup_3cf6dcfa643907f4f64d625b2013d74f.setContent(html_cedd51101cf45d1120109c213c5ea4aa);
+            
+        
+
+        marker_1b4a8105b8bd2b56d4673f901dc43c90.bindPopup(popup_3cf6dcfa643907f4f64d625b2013d74f)
+        ;
+
+        
+    
+    
+            var marker_3c8716d11e03b47fa8b249c85ed4289f = L.marker(
+                [44.6571092, -79.6613718],
+                {
+}
+            ).addTo(map_8ced305905605d1b3b0c62cf059bbe60);
+        
+    
+        var popup_93fbd5ac43a48162d675833654400dd7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b2a1b94c9fdf98edfad34f21851db769 = $(`<div id="html_b2a1b94c9fdf98edfad34f21851db769" style="width: 100.0%; height: 100.0%;">290 Moonstone Road E, Oro-Medonte, ON, Canada</div>`)[0];
+                popup_93fbd5ac43a48162d675833654400dd7.setContent(html_b2a1b94c9fdf98edfad34f21851db769);
+            
+        
+
+        marker_3c8716d11e03b47fa8b249c85ed4289f.bindPopup(popup_93fbd5ac43a48162d675833654400dd7)
+        ;
+
+        
+    
+    
+            var marker_a2bd7e79100e94af2f716b598c778aa1 = L.marker(
+                [44.7439858, -79.8925928],
+                {
+}
+            ).addTo(map_8ced305905605d1b3b0c62cf059bbe60);
+        
+    
+        var popup_774d76b752c24fa73116b3aa1b24e996 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ad660ec6bcb4bc747989ef8dd5d49f19 = $(`<div id="html_ad660ec6bcb4bc747989ef8dd5d49f19" style="width: 100.0%; height: 100.0%;">340 Sixth Street, Midland, ON, Canada</div>`)[0];
+                popup_774d76b752c24fa73116b3aa1b24e996.setContent(html_ad660ec6bcb4bc747989ef8dd5d49f19);
+            
+        
+
+        marker_a2bd7e79100e94af2f716b598c778aa1.bindPopup(popup_774d76b752c24fa73116b3aa1b24e996)
+        ;
+
+        
+    
+    
+            var marker_e05c622d23392338859e009f9ce5f2e2 = L.marker(
+                [44.6107109, -79.463045],
+                {
+}
+            ).addTo(map_8ced305905605d1b3b0c62cf059bbe60);
+        
+    
+        var popup_dbf96376e98164e8cb72076471e3d4a2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_720fa6ca9a8a40193d5a8c31bd221cc2 = $(`<div id="html_720fa6ca9a8a40193d5a8c31bd221cc2" style="width: 100.0%; height: 100.0%;">140 Atlantis Drive, Orillia, ON, Canada</div>`)[0];
+                popup_dbf96376e98164e8cb72076471e3d4a2.setContent(html_720fa6ca9a8a40193d5a8c31bd221cc2);
+            
+        
+
+        marker_e05c622d23392338859e009f9ce5f2e2.bindPopup(popup_dbf96376e98164e8cb72076471e3d4a2)
+        ;
+
+        
+    
+    
+            var marker_7af9636773a862b321c71ae11adff06c = L.marker(
+                [44.398966, -79.688532],
+                {
+}
+            ).addTo(map_8ced305905605d1b3b0c62cf059bbe60);
+        
+    
+        var popup_db58f53d16c8f89898b3d627f82f4c80 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0e7300b5a9084aad99ef6268f3ae9f07 = $(`<div id="html_0e7300b5a9084aad99ef6268f3ae9f07" style="width: 100.0%; height: 100.0%;">22 Davidson Street, Barrie, ON, Canada</div>`)[0];
+                popup_db58f53d16c8f89898b3d627f82f4c80.setContent(html_0e7300b5a9084aad99ef6268f3ae9f07);
+            
+        
+
+        marker_7af9636773a862b321c71ae11adff06c.bindPopup(popup_db58f53d16c8f89898b3d627f82f4c80)
+        ;
+
+        
+    
+    
+            var marker_7975dd8fad58b4d7d2d7525df8a7830c = L.marker(
+                [44.6201772, -79.432856],
+                {
+}
+            ).addTo(map_8ced305905605d1b3b0c62cf059bbe60);
+        
+    
+        var popup_9c4d38bee1df81d72468a705f54dbb70 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4fc49c2ec521bfb50529e6259f1634e0 = $(`<div id="html_4fc49c2ec521bfb50529e6259f1634e0" style="width: 100.0%; height: 100.0%;">24 Calverley Street, Orillia, ON, Canada</div>`)[0];
+                popup_9c4d38bee1df81d72468a705f54dbb70.setContent(html_4fc49c2ec521bfb50529e6259f1634e0);
+            
+        
+
+        marker_7975dd8fad58b4d7d2d7525df8a7830c.bindPopup(popup_9c4d38bee1df81d72468a705f54dbb70)
+        ;
+
+        
+    
+    
+            var marker_f5bd6fecae2f193834ef55cf36c46831 = L.marker(
+                [44.3928325, -79.7161923],
+                {
+}
+            ).addTo(map_8ced305905605d1b3b0c62cf059bbe60);
+        
+    
+        var popup_7c350bf24a3486ba52c7fee09abb8545 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dcda64092bb1dc5080edea2c1244f78a = $(`<div id="html_dcda64092bb1dc5080edea2c1244f78a" style="width: 100.0%; height: 100.0%;">124 Letitia Street, Barrie, ON, Canada</div>`)[0];
+                popup_7c350bf24a3486ba52c7fee09abb8545.setContent(html_dcda64092bb1dc5080edea2c1244f78a);
+            
+        
+
+        marker_f5bd6fecae2f193834ef55cf36c46831.bindPopup(popup_7c350bf24a3486ba52c7fee09abb8545)
+        ;
+
+        
+    
+    
+            var marker_8362dae8b78d5b79ff082ae98ec499ed = L.marker(
+                [44.598175, -79.3984274],
+                {
+}
+            ).addTo(map_8ced305905605d1b3b0c62cf059bbe60);
+        
+    
+        var popup_f8cdc2a1ac9e4e1ce572335ed38acedb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2f2776dd2a4aeca28457f0dc21577109 = $(`<div id="html_2f2776dd2a4aeca28457f0dc21577109" style="width: 100.0%; height: 100.0%;">485 Regent Street, Orillia, ON, Canada</div>`)[0];
+                popup_f8cdc2a1ac9e4e1ce572335ed38acedb.setContent(html_2f2776dd2a4aeca28457f0dc21577109);
+            
+        
+
+        marker_8362dae8b78d5b79ff082ae98ec499ed.bindPopup(popup_f8cdc2a1ac9e4e1ce572335ed38acedb)
+        ;
+
+        
+    
+    
+            var marker_225d956c1592c84a24ecd10602f3e1b4 = L.marker(
+                [44.7519845, -79.8740335],
+                {
+}
+            ).addTo(map_8ced305905605d1b3b0c62cf059bbe60);
+        
+    
+        var popup_b9fb82b917cdf3390437795648c6fd46 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0c4ca24ea4418c27c3ab7547a2e4dbe8 = $(`<div id="html_0c4ca24ea4418c27c3ab7547a2e4dbe8" style="width: 100.0%; height: 100.0%;">241 Elizabeth Street, Midland, ON, Canada</div>`)[0];
+                popup_b9fb82b917cdf3390437795648c6fd46.setContent(html_0c4ca24ea4418c27c3ab7547a2e4dbe8);
+            
+        
+
+        marker_225d956c1592c84a24ecd10602f3e1b4.bindPopup(popup_b9fb82b917cdf3390437795648c6fd46)
+        ;
+
+        
+    
+    
+            var marker_827fe18cb2a52af3adcade2c8b9d43b8 = L.marker(
+                [44.7029509, -79.3908817],
+                {
+}
+            ).addTo(map_8ced305905605d1b3b0c62cf059bbe60);
+        
+    
+        var popup_5c5912f77dbfea1076cefd2ec8708ede = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7e302d5657726d846db2c744e4c16bc7 = $(`<div id="html_7e302d5657726d846db2c744e4c16bc7" style="width: 100.0%; height: 100.0%;">2746 Cumberland Road, Severn, ON, Canada</div>`)[0];
+                popup_5c5912f77dbfea1076cefd2ec8708ede.setContent(html_7e302d5657726d846db2c744e4c16bc7);
+            
+        
+
+        marker_827fe18cb2a52af3adcade2c8b9d43b8.bindPopup(popup_5c5912f77dbfea1076cefd2ec8708ede)
+        ;
+
+        
+    
+    
+            var marker_a7bb203dfe0adc123c490415c310d67d = L.marker(
+                [44.4142421, -79.576216],
+                {
+}
+            ).addTo(map_8ced305905605d1b3b0c62cf059bbe60);
+        
+    
+        var popup_d4708599461ba136b3b8b1e93af80872 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_51a47d919295df11926d11dd764372be = $(`<div id="html_51a47d919295df11926d11dd764372be" style="width: 100.0%; height: 100.0%;">1871 Ridge Road W, Oro-Medonte, ON, Canada</div>`)[0];
+                popup_d4708599461ba136b3b8b1e93af80872.setContent(html_51a47d919295df11926d11dd764372be);
+            
+        
+
+        marker_a7bb203dfe0adc123c490415c310d67d.bindPopup(popup_d4708599461ba136b3b8b1e93af80872)
+        ;
+
+        
+    
+    
+            var marker_fd7547a0064040c44c984234083e17f6 = L.marker(
+                [44.4189704, -79.703895],
+                {
+}
+            ).addTo(map_8ced305905605d1b3b0c62cf059bbe60);
+        
+    
+        var popup_bc741f09d3e92be47984f3c9d715f5e8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f9562d2c3b25ac2a002ac7fd4e632f53 = $(`<div id="html_f9562d2c3b25ac2a002ac7fd4e632f53" style="width: 100.0%; height: 100.0%;">123 Hanmer Street E, Barrie, ON, Canada</div>`)[0];
+                popup_bc741f09d3e92be47984f3c9d715f5e8.setContent(html_f9562d2c3b25ac2a002ac7fd4e632f53);
+            
+        
+
+        marker_fd7547a0064040c44c984234083e17f6.bindPopup(popup_bc741f09d3e92be47984f3c9d715f5e8)
+        ;
+
+        
+    
+    
+            var marker_9a1c3fc4f9cbc5200cd035b937358e4c = L.marker(
+                [44.7456931, -79.7621761],
+                {
+}
+            ).addTo(map_8ced305905605d1b3b0c62cf059bbe60);
+        
+    
+        var popup_6ca63601259490bf4e141d3b116fcdd7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_508adec5d6f0b096c237797c662f36c1 = $(`<div id="html_508adec5d6f0b096c237797c662f36c1" style="width: 100.0%; height: 100.0%;">460 Park Street, Tay, ON, Canada</div>`)[0];
+                popup_6ca63601259490bf4e141d3b116fcdd7.setContent(html_508adec5d6f0b096c237797c662f36c1);
+            
+        
+
+        marker_9a1c3fc4f9cbc5200cd035b937358e4c.bindPopup(popup_6ca63601259490bf4e141d3b116fcdd7)
+        ;
+
+        
+    
+    
+            var marker_a24611d44ed80ace655b43d2201247cf = L.marker(
+                [44.3325033, -79.7213189],
+                {
+}
+            ).addTo(map_8ced305905605d1b3b0c62cf059bbe60);
+        
+    
+        var popup_36bc5e4011a1771a8c217896e8731fa2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_653bb898f26a55a05f03b957093d4d50 = $(`<div id="html_653bb898f26a55a05f03b957093d4d50" style="width: 100.0%; height: 100.0%;">101 Marsellus Drive, Barrie, ON, Canada</div>`)[0];
+                popup_36bc5e4011a1771a8c217896e8731fa2.setContent(html_653bb898f26a55a05f03b957093d4d50);
+            
+        
+
+        marker_a24611d44ed80ace655b43d2201247cf.bindPopup(popup_36bc5e4011a1771a8c217896e8731fa2)
+        ;
+
+        
+    
+    
+            var marker_7b0249e534b13f7a3201dbe202a4e961 = L.marker(
+                [44.6002309, -79.3956088],
+                {
+}
+            ).addTo(map_8ced305905605d1b3b0c62cf059bbe60);
+        
+    
+        var popup_0764baf076194e11ca5d3ce1aa76fc2b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a6a0aadf30be03d0182cd9843613d1b4 = $(`<div id="html_a6a0aadf30be03d0182cd9843613d1b4" style="width: 100.0%; height: 100.0%;">255 Oxford Street, Orillia, ON, Canada</div>`)[0];
+                popup_0764baf076194e11ca5d3ce1aa76fc2b.setContent(html_a6a0aadf30be03d0182cd9843613d1b4);
+            
+        
+
+        marker_7b0249e534b13f7a3201dbe202a4e961.bindPopup(popup_0764baf076194e11ca5d3ce1aa76fc2b)
+        ;
+
+        
+    
+    
+            var marker_4d257935c85e900c888edadfc3345ab8 = L.marker(
+                [44.3566653, -79.7239789],
+                {
+}
+            ).addTo(map_8ced305905605d1b3b0c62cf059bbe60);
+        
+    
+        var popup_6642c28de71bd8c3b7eef90a84c52063 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a0da898ef0a4abcb5946f66f238c213f = $(`<div id="html_a0da898ef0a4abcb5946f66f238c213f" style="width: 100.0%; height: 100.0%;">111 Summerset Drive, Barrie, ON, Canada</div>`)[0];
+                popup_6642c28de71bd8c3b7eef90a84c52063.setContent(html_a0da898ef0a4abcb5946f66f238c213f);
+            
+        
+
+        marker_4d257935c85e900c888edadfc3345ab8.bindPopup(popup_6642c28de71bd8c3b7eef90a84c52063)
+        ;
+
+        
+    
+    
+            var marker_20d36e52fa53ec57feaa9fa728bba21d = L.marker(
+                [44.3559008, -79.6128414],
+                {
+}
+            ).addTo(map_8ced305905605d1b3b0c62cf059bbe60);
+        
+    
+        var popup_91273ce1ccc3ffeb2837b1b2b0fcd5aa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6c538d1d3b24dac410db3b0b49327f98 = $(`<div id="html_6c538d1d3b24dac410db3b0b49327f98" style="width: 100.0%; height: 100.0%;">130 Prince William Way, Barrie, ON, Canada</div>`)[0];
+                popup_91273ce1ccc3ffeb2837b1b2b0fcd5aa.setContent(html_6c538d1d3b24dac410db3b0b49327f98);
+            
+        
+
+        marker_20d36e52fa53ec57feaa9fa728bba21d.bindPopup(popup_91273ce1ccc3ffeb2837b1b2b0fcd5aa)
+        ;
+
+        
+    
+    
+            var marker_e6065653685376ae8b9a8e07564628a5 = L.marker(
+                [44.35624, -79.63945],
+                {
+}
+            ).addTo(map_8ced305905605d1b3b0c62cf059bbe60);
+        
+    
+        var popup_44c2985de14dfaf0e11b53dbb7483442 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3093016985eaef0545adb016c47e2a2a = $(`<div id="html_3093016985eaef0545adb016c47e2a2a" style="width: 100.0%; height: 100.0%;">211 Ashford Drive, Barrie, ON, Canada</div>`)[0];
+                popup_44c2985de14dfaf0e11b53dbb7483442.setContent(html_3093016985eaef0545adb016c47e2a2a);
+            
+        
+
+        marker_e6065653685376ae8b9a8e07564628a5.bindPopup(popup_44c2985de14dfaf0e11b53dbb7483442)
+        ;
+
+        
+    
+    
+            var marker_dd3e1e6c3d5830b47102b9328174e970 = L.marker(
+                [44.3666935, -79.6921299],
+                {
+}
+            ).addTo(map_8ced305905605d1b3b0c62cf059bbe60);
+        
+    
+        var popup_da1d36e7cdae8ace83b40bee6d938a4b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b11aaf242cc6eadb7113e99305e46570 = $(`<div id="html_b11aaf242cc6eadb7113e99305e46570" style="width: 100.0%; height: 100.0%;">393 Innisfil Street, Barrie, ON, Canada</div>`)[0];
+                popup_da1d36e7cdae8ace83b40bee6d938a4b.setContent(html_b11aaf242cc6eadb7113e99305e46570);
+            
+        
+
+        marker_dd3e1e6c3d5830b47102b9328174e970.bindPopup(popup_da1d36e7cdae8ace83b40bee6d938a4b)
+        ;
+
+        
+    
+    
+            var marker_1bd38b1e35a397eb2319074f58fe7781 = L.marker(
+                [44.4124164, -79.7180049],
+                {
+}
+            ).addTo(map_8ced305905605d1b3b0c62cf059bbe60);
+        
+    
+        var popup_b40ce80730d03202d9d4566b6551b8a4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2047156ca6abb2ef0b6e3c6136a38765 = $(`<div id="html_2047156ca6abb2ef0b6e3c6136a38765" style="width: 100.0%; height: 100.0%;">87 Hanmer Street W, Barrie, ON, Canada</div>`)[0];
+                popup_b40ce80730d03202d9d4566b6551b8a4.setContent(html_2047156ca6abb2ef0b6e3c6136a38765);
+            
+        
+
+        marker_1bd38b1e35a397eb2319074f58fe7781.bindPopup(popup_b40ce80730d03202d9d4566b6551b8a4)
+        ;
+
+        
+    
+    
+            var marker_08d14eb6592f71f9fa1e0f8b1beeb38d = L.marker(
+                [44.3865017, -79.7194616],
+                {
+}
+            ).addTo(map_8ced305905605d1b3b0c62cf059bbe60);
+        
+    
+        var popup_9b7bc40b92935f1ba9f4bcc05d93b815 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a9aaa0554fe51271a1bd08c8befb675d = $(`<div id="html_a9aaa0554fe51271a1bd08c8befb675d" style="width: 100.0%; height: 100.0%;">340 Leacock Drive, Barrie, ON, Canada</div>`)[0];
+                popup_9b7bc40b92935f1ba9f4bcc05d93b815.setContent(html_a9aaa0554fe51271a1bd08c8befb675d);
+            
+        
+
+        marker_08d14eb6592f71f9fa1e0f8b1beeb38d.bindPopup(popup_9b7bc40b92935f1ba9f4bcc05d93b815)
+        ;
+
+        
+    
+    
+            var marker_15235c433bfe6bda8df888ec5ecca100 = L.marker(
+                [44.4800775, -80.2227631],
+                {
+}
+            ).addTo(map_8ced305905605d1b3b0c62cf059bbe60);
+        
+    
+        var popup_396660a25a2d6d5badf5779b99adee4b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b4f855d7c892842cf55bbaa3e94ba04d = $(`<div id="html_b4f855d7c892842cf55bbaa3e94ba04d" style="width: 100.0%; height: 100.0%;">18 Saunders Street, Collingwood, ON, Canada</div>`)[0];
+                popup_396660a25a2d6d5badf5779b99adee4b.setContent(html_b4f855d7c892842cf55bbaa3e94ba04d);
+            
+        
+
+        marker_15235c433bfe6bda8df888ec5ecca100.bindPopup(popup_396660a25a2d6d5badf5779b99adee4b)
+        ;
+
+        
+    
+    
+            var marker_d2b710f891612ca857d893abd682611c = L.marker(
+                [44.3537609, -79.6600454],
+                {
+}
+            ).addTo(map_8ced305905605d1b3b0c62cf059bbe60);
+        
+    
+        var popup_755c9e98b13dcc9071705c2c4576849d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_56e021e44e8d424b8dd6b6333624f4da = $(`<div id="html_56e021e44e8d424b8dd6b6333624f4da" style="width: 100.0%; height: 100.0%;">349 Big Bay Point Road, Barrie, ON, Canada</div>`)[0];
+                popup_755c9e98b13dcc9071705c2c4576849d.setContent(html_56e021e44e8d424b8dd6b6333624f4da);
+            
+        
+
+        marker_d2b710f891612ca857d893abd682611c.bindPopup(popup_755c9e98b13dcc9071705c2c4576849d)
+        ;
+
+        
+    
+    
+            var marker_9b2f9b9a61f8ca3407523535e1bc9cf8 = L.marker(
+                [44.4020979, -79.6661282],
+                {
+}
+            ).addTo(map_8ced305905605d1b3b0c62cf059bbe60);
+        
+    
+        var popup_8836c9ac867157f4b41564993d2903b6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_57a67c66db38a7ef1821d81a0557a53e = $(`<div id="html_57a67c66db38a7ef1821d81a0557a53e" style="width: 100.0%; height: 100.0%;">90 Steel Street, Barrie, ON, Canada</div>`)[0];
+                popup_8836c9ac867157f4b41564993d2903b6.setContent(html_57a67c66db38a7ef1821d81a0557a53e);
+            
+        
+
+        marker_9b2f9b9a61f8ca3407523535e1bc9cf8.bindPopup(popup_8836c9ac867157f4b41564993d2903b6)
+        ;
+
+        
+    
+    
+            var marker_504ec0957a895c580f48e7cd27a18c3b = L.marker(
+                [44.322493, -79.7293365],
+                {
+}
+            ).addTo(map_8ced305905605d1b3b0c62cf059bbe60);
+        
+    
+        var popup_37f2ea4803ba9c5b000f7bcad0f2f78c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b4c33013447c9396ba3489ed8097923c = $(`<div id="html_b4c33013447c9396ba3489ed8097923c" style="width: 100.0%; height: 100.0%;">100 Lougheed Road, Barrie, ON, Canada</div>`)[0];
+                popup_37f2ea4803ba9c5b000f7bcad0f2f78c.setContent(html_b4c33013447c9396ba3489ed8097923c);
+            
+        
+
+        marker_504ec0957a895c580f48e7cd27a18c3b.bindPopup(popup_37f2ea4803ba9c5b000f7bcad0f2f78c)
+        ;
+
+        
+    
+    
+            var marker_3ad3ea54c7d482a132b0a190f266a8e0 = L.marker(
+                [44.4026769, -79.6720816],
+                {
+}
+            ).addTo(map_8ced305905605d1b3b0c62cf059bbe60);
+        
+    
+        var popup_1658384b684472261a9455b368541f94 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_947d65be46b71056b3f43b069cdca7a8 = $(`<div id="html_947d65be46b71056b3f43b069cdca7a8" style="width: 100.0%; height: 100.0%;">36 Steel Street, Barrie, ON, Canada</div>`)[0];
+                popup_1658384b684472261a9455b368541f94.setContent(html_947d65be46b71056b3f43b069cdca7a8);
+            
+        
+
+        marker_3ad3ea54c7d482a132b0a190f266a8e0.bindPopup(popup_1658384b684472261a9455b368541f94)
+        ;
+
+        
+    
+    
+            var marker_fca027ecfe13a381e9ad3dd0df133edf = L.marker(
+                [44.7509894, -79.7716071],
+                {
+}
+            ).addTo(map_8ced305905605d1b3b0c62cf059bbe60);
+        
+    
+        var popup_b29d5dd0f1c30bd0eb5d92db45ecde66 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3887d70f9f778204f72eccb21a61ce90 = $(`<div id="html_3887d70f9f778204f72eccb21a61ce90" style="width: 100.0%; height: 100.0%;">125 Jephson St Victoria Harbour, Tay, ON, Canada</div>`)[0];
+                popup_b29d5dd0f1c30bd0eb5d92db45ecde66.setContent(html_3887d70f9f778204f72eccb21a61ce90);
+            
+        
+
+        marker_fca027ecfe13a381e9ad3dd0df133edf.bindPopup(popup_b29d5dd0f1c30bd0eb5d92db45ecde66)
+        ;
+
+        
+    
+    
+            var marker_b1d77fb9b8811ffefa82652ba258f6a1 = L.marker(
+                [44.4162291, -79.702753],
+                {
+}
+            ).addTo(map_8ced305905605d1b3b0c62cf059bbe60);
+        
+    
+        var popup_54484164887f09cb9eb32fa3c5d920fe = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3553ed3f9c135afa37913e20dd940975 = $(`<div id="html_3553ed3f9c135afa37913e20dd940975" style="width: 100.0%; height: 100.0%;">100 Livingstone Street E, Barrie, ON, Canada</div>`)[0];
+                popup_54484164887f09cb9eb32fa3c5d920fe.setContent(html_3553ed3f9c135afa37913e20dd940975);
+            
+        
+
+        marker_b1d77fb9b8811ffefa82652ba258f6a1.bindPopup(popup_54484164887f09cb9eb32fa3c5d920fe)
+        ;
+
+        
+    
+    
+            var marker_e6f46ce80964218b9574199f80eebffd = L.marker(
+                [44.3914144, -79.7397093],
+                {
+}
+            ).addTo(map_8ced305905605d1b3b0c62cf059bbe60);
+        
+    
+        var popup_3ce70f94e1015ee186203c2b0aa275e1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5f20b5469db8fa4a18b96672ed8eb161 = $(`<div id="html_5f20b5469db8fa4a18b96672ed8eb161" style="width: 100.0%; height: 100.0%;">23 Cloughley Drive, Barrie, ON, Canada</div>`)[0];
+                popup_3ce70f94e1015ee186203c2b0aa275e1.setContent(html_5f20b5469db8fa4a18b96672ed8eb161);
+            
+        
+
+        marker_e6f46ce80964218b9574199f80eebffd.bindPopup(popup_3ce70f94e1015ee186203c2b0aa275e1)
+        ;
+
+        
+    
+    
+            var marker_92ff946973db54d3413ccba493495fa5 = L.marker(
+                [44.3426544, -79.7001342],
+                {
+}
+            ).addTo(map_8ced305905605d1b3b0c62cf059bbe60);
+        
+    
+        var popup_33cc084af430b0e85c3d20979a06ccd5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ab0fd52ec6cdd3b1c3166c25ff58f3d4 = $(`<div id="html_ab0fd52ec6cdd3b1c3166c25ff58f3d4" style="width: 100.0%; height: 100.0%;">20 Elmbrook Drive, Barrie, ON, Canada</div>`)[0];
+                popup_33cc084af430b0e85c3d20979a06ccd5.setContent(html_ab0fd52ec6cdd3b1c3166c25ff58f3d4);
+            
+        
+
+        marker_92ff946973db54d3413ccba493495fa5.bindPopup(popup_33cc084af430b0e85c3d20979a06ccd5)
+        ;
+
+        
+    
+    
+            var marker_cea68ee7fcbb16154fdb06787d984a66 = L.marker(
+                [44.3289082, -79.7292687],
+                {
+}
+            ).addTo(map_8ced305905605d1b3b0c62cf059bbe60);
+        
+    
+        var popup_3255a89ca8d0088e99e7266653d3eaff = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_91edf90b259e4a940814e5a05b448de8 = $(`<div id="html_91edf90b259e4a940814e5a05b448de8" style="width: 100.0%; height: 100.0%;">11 Bear Creek Drive, Barrie, ON, Canada</div>`)[0];
+                popup_3255a89ca8d0088e99e7266653d3eaff.setContent(html_91edf90b259e4a940814e5a05b448de8);
+            
+        
+
+        marker_cea68ee7fcbb16154fdb06787d984a66.bindPopup(popup_3255a89ca8d0088e99e7266653d3eaff)
+        ;
+
+        
+    
+    
+            var marker_21103224e05cd1841f451c07dc780e91 = L.marker(
+                [44.5171098, -79.5919932],
+                {
+}
+            ).addTo(map_8ced305905605d1b3b0c62cf059bbe60);
+        
+    
+        var popup_b9682692280ee03d14114edf54efcc6f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3b9cb9d80543b7b140308372eef4da70 = $(`<div id="html_3b9cb9d80543b7b140308372eef4da70" style="width: 100.0%; height: 100.0%;">2221 Old Barrie Road W, Oro-Medonte, ON, Canada</div>`)[0];
+                popup_b9682692280ee03d14114edf54efcc6f.setContent(html_3b9cb9d80543b7b140308372eef4da70);
+            
+        
+
+        marker_21103224e05cd1841f451c07dc780e91.bindPopup(popup_b9682692280ee03d14114edf54efcc6f)
+        ;
+
+        
+    
+    
+            var marker_45aa895102dda2705cf7adf843a6c7ef = L.marker(
+                [44.3586324, -79.6480528],
+                {
+}
+            ).addTo(map_8ced305905605d1b3b0c62cf059bbe60);
+        
+    
+        var popup_758e12169e0fd140f1d20944278e4a6c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_03854301a2d28611b3ff51a5bc768b29 = $(`<div id="html_03854301a2d28611b3ff51a5bc768b29" style="width: 100.0%; height: 100.0%;">211 Warnica Road, Barrie, ON, Canada</div>`)[0];
+                popup_758e12169e0fd140f1d20944278e4a6c.setContent(html_03854301a2d28611b3ff51a5bc768b29);
+            
+        
+
+        marker_45aa895102dda2705cf7adf843a6c7ef.bindPopup(popup_758e12169e0fd140f1d20944278e4a6c)
+        ;
+
+        
+    
+    
+            var marker_1dfc87a4a9c614528b32ce6a13a01047 = L.marker(
+                [44.4621642, -80.0358314],
+                {
+}
+            ).addTo(map_8ced305905605d1b3b0c62cf059bbe60);
+        
+    
+        var popup_7b5200acf210617cde6c5c9d5af61db4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3f00fffb1ab8fb4afe443405a21a1db1 = $(`<div id="html_3f00fffb1ab8fb4afe443405a21a1db1" style="width: 100.0%; height: 100.0%;">42 Union Boulevard, Wasaga Beach, ON, Canada</div>`)[0];
+                popup_7b5200acf210617cde6c5c9d5af61db4.setContent(html_3f00fffb1ab8fb4afe443405a21a1db1);
+            
+        
+
+        marker_1dfc87a4a9c614528b32ce6a13a01047.bindPopup(popup_7b5200acf210617cde6c5c9d5af61db4)
+        ;
+
+        
+    
+    
+            var marker_d957636eae8d48ac057c0f9f92a1551b = L.marker(
+                [44.4075081, -79.7201289],
+                {
+}
+            ).addTo(map_8ced305905605d1b3b0c62cf059bbe60);
+        
+    
+        var popup_cb3172cec7e993609e53c8ff7dfed0c9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_da823edb400a69f19fa31ce13560318b = $(`<div id="html_da823edb400a69f19fa31ce13560318b" style="width: 100.0%; height: 100.0%;">49 Ford Street, Barrie, ON, Canada</div>`)[0];
+                popup_cb3172cec7e993609e53c8ff7dfed0c9.setContent(html_da823edb400a69f19fa31ce13560318b);
+            
+        
+
+        marker_d957636eae8d48ac057c0f9f92a1551b.bindPopup(popup_cb3172cec7e993609e53c8ff7dfed0c9)
+        ;
+
+        
+    
+    
+            var marker_bf0c7b4bd21ca3a73e717daab5258aee = L.marker(
+                [44.35449, -79.662719],
+                {
+}
+            ).addTo(map_8ced305905605d1b3b0c62cf059bbe60);
+        
+    
+        var popup_f4aadf4bc7ccaec76619d59ff71a3681 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0fc2fc1a472065a2ea92662efb7f9bd1 = $(`<div id="html_0fc2fc1a472065a2ea92662efb7f9bd1" style="width: 100.0%; height: 100.0%;">330 Big Bay Point Road, Barrie, ON, Canada</div>`)[0];
+                popup_f4aadf4bc7ccaec76619d59ff71a3681.setContent(html_0fc2fc1a472065a2ea92662efb7f9bd1);
+            
+        
+
+        marker_bf0c7b4bd21ca3a73e717daab5258aee.bindPopup(popup_f4aadf4bc7ccaec76619d59ff71a3681)
+        ;
+
+        
+    
+    
+            var marker_3ae61cb401ef02e7e54ae72124105825 = L.marker(
+                [44.6553257, -79.9248825],
+                {
+}
+            ).addTo(map_8ced305905605d1b3b0c62cf059bbe60);
+        
+    
+        var popup_0622ea3ff607cb929be45de3d3496c5e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_47ae677748e4e7202667ead3985d4b34 = $(`<div id="html_47ae677748e4e7202667ead3985d4b34" style="width: 100.0%; height: 100.0%;">20 Concession 5 E, Tiny, ON, Canada</div>`)[0];
+                popup_0622ea3ff607cb929be45de3d3496c5e.setContent(html_47ae677748e4e7202667ead3985d4b34);
+            
+        
+
+        marker_3ae61cb401ef02e7e54ae72124105825.bindPopup(popup_0622ea3ff607cb929be45de3d3496c5e)
+        ;
+
+        
+    
+    
+            map_8ced305905605d1b3b0c62cf059bbe60.fitBounds(
+                [[44.3645656, -79.6857353], [44.3908662, -79.7262343], [44.3552132, -79.7268025], [44.3647931, -79.6716093], [44.7478229, -79.9030368], [44.3974202, -79.6758969], [44.7121346, -79.6400425], [44.6278317, -79.4241219], [44.4080115, -79.6991758], [44.5278383, -79.4957059], [44.3957476, -79.7316865], [44.3582371, -79.7166984], [44.5976309, -79.4317758], [44.3600876, -79.6207846], [44.3934603, -79.6994623], [44.3395642, -79.7147604], [44.7432848, -79.8759213], [44.3591309, -79.6078052], [44.3989559, -79.6553277], [44.6115841, -79.4246401], [44.406126, -79.6788742], [44.3504999, -79.6472352], [44.6260313, -79.5005294], [44.7443097, -79.914138], [44.4145453, -79.6850408], [44.6240581, -79.4302106], [44.6571092, -79.6613718], [44.7439858, -79.8925928], [44.6107109, -79.463045], [44.398966, -79.688532], [44.6201772, -79.432856], [44.3928325, -79.7161923], [44.598175, -79.3984274], [44.7519845, -79.8740335], [44.7029509, -79.3908817], [44.4142421, -79.576216], [44.4189704, -79.703895], [44.7456931, -79.7621761], [44.3325033, -79.7213189], [44.6002309, -79.3956088], [44.3566653, -79.7239789], [44.3559008, -79.6128414], [44.35624, -79.63945], [44.3666935, -79.6921299], [44.4124164, -79.7180049], [44.3865017, -79.7194616], [44.4800775, -80.2227631], [44.3537609, -79.6600454], [44.4020979, -79.6661282], [44.322493, -79.7293365], [44.4026769, -79.6720816], [44.7509894, -79.7716071], [44.4162291, -79.702753], [44.3914144, -79.7397093], [44.3426544, -79.7001342], [44.3289082, -79.7292687], [44.5171098, -79.5919932], [44.3586324, -79.6480528], [44.4621642, -80.0358314], [44.4075081, -79.7201289], [44.35449, -79.662719], [44.6553257, -79.9248825]],
+                {}
+            );
+        
+</script>
+</html>
